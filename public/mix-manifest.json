@@ -1,6 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
     "/js/custom.js": "/js/custom.js",
+    "/js/home.js": "/js/home.js",
+    "/js/jquery.fancybox.js": "/js/jquery.fancybox.js",
     "/js/vegas.js": "/js/vegas.js",
     "/css/app.css": "/css/app.css"
 }

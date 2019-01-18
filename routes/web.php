@@ -12,8 +12,8 @@
 */
 
 Route::get('/', 'Home\HomeController@index')->name('home');
-Route::get('the-series', 'Home\HomeController@index')->name('the-series.index');
-Route::get('screenings', 'Home\HomeController@index')->name('screenings.index');
-Route::get('press-kit', 'Home\HomeController@index')->name('press-kit.index');
-Route::get('resources', 'Home\HomeController@index')->name('resources.index');
-Route::get('contact-us', 'Home\HomeController@index')->name('contact-us.index');
+Route::get('the-series', 'TheSeries\TheSeriesController@index')->name('the-series.index');
+Route::get('screenings', 'Screenings\ScreeningsController@index')->name('screenings.index');
+Route::get('press-kit', 'PressKit\PressKitController@index')->name('press-kit.index');
+Route::get('resources', 'Resources\ResourcesController@index')->name('resources.index');
+Route::get('contact-us', 'ContactUs\ContactUsController@index')->name('contact-us.index');

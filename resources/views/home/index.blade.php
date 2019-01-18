@@ -23,7 +23,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="is-fullwidth">
-        <a href="https://youtu.be/X5FB3cf8Rks"><img src="{{asset('img/video-picture.jpg')}}" target="_blank" alt="Trailer Pulau Plastik"></a>
+        <a data-fancybox href="https://youtu.be/X5FB3cf8Rks"><img src="{{asset('img/video-picture.jpg')}}" target="_blank" alt="Trailer Pulau Plastik"></a>
       </div>
     </div>
   </div>
@@ -111,8 +111,3 @@
 @section('footer')
   @include('layouts.footer')
 @endsection
-
-
-@push('b-scripts')
-    <script type="text/javascript" src="{{asset('js/custom.js')}}"></script>
-@endpush

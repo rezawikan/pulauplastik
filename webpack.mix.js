@@ -13,11 +13,14 @@ const mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .js('resources/assets/js/vegas.js','public/js')
+   .js('resources/assets/js/home.js','public/js')
    .js('resources/assets/js/custom.js','public/js')
+   .js('resources/assets/js/jquery.fancybox.js','public/js')
    .styles([
      'resources/assets/css/bootstrap.css',
      'resources/assets/css/normalize.css',
      'resources/assets/css/vegas.css',
+     'resources/assets/css/jquery.fancybox.css',
      'resources/assets/css/master.css',
    ], 'public/css/app.css')
    .options({

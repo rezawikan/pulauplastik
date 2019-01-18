@@ -81,65 +81,74 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/assets/js/custom.js":
-/*!***************************************!*\
-  !*** ./resources/assets/js/custom.js ***!
-  \***************************************/
+/***/ "./resources/assets/js/home.js":
+/*!*************************************!*\
+  !*** ./resources/assets/js/home.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
-  // direct browser to top right away
-  if (window.location.hash) scroll(0, 0); // takes care of some browsers issue
+  $(".front-background").vegas({
+    delay: 7000,
+    slides: [{
+      src: "img/header.png"
+    }, {
+      src: "img/poster-event.jpg"
+    }]
+  });
 
-  setTimeout(function () {
-    scroll(0, 0);
-  }, 1);
-  $(function () {
-    //your current click function
-    $("nav ul li a[href^='#']").on('click', function (e) {
-      e.preventDefault();
+  if (window.pageYOffset >= window.innerHeight) {
+    $("nav").addClass("navbar-scroll");
+    $("nav").removeClass("navbar-transparent");
+    $("#problems").addClass("scroll-margin");
+  } else {
+    //remove the background property so it comes transparent again (defined in your css)
+    $("nav").removeClass("navbar-scroll");
+    $("nav").addClass("navbar-transparent");
+    $("#problems").removeClass("scroll-margin");
+  }
 
-      if (this.hash) {
-        $('html,body').animate({
-          scrollTop: $($(this).attr('href')).offset().top - 55
-        }, 1000);
-      }
-    }); // if we have anchor on the url (calling from other page)
-
-    if (window.location.hash) {
-      // smooth scroll to the anchor id
-      $('html,body').animate({
-        scrollTop: $(window.location.hash).offset().top - 55
-      }, 1000);
+  $(window).on("scroll", function () {
+    if (window.pageYOffset >= window.innerHeight) {
+      $("nav").addClass("navbar-scroll");
+      $("nav").removeClass("navbar-transparent");
+      $("#problems").addClass("scroll-margin");
+    } else {
+      //remove the background property so it comes transparent again (defined in your css)
+      $("nav").removeClass("navbar-scroll");
+      $("nav").addClass("navbar-transparent");
+      $("#problems").removeClass("scroll-margin");
     }
   });
-  $(".dropdown-item").on('click', function (e) {
-    if (window.location.href.split('#')[0] == this.getAttribute('href').split('#')[0]) {
-      // console.log('asd');
-      e.preventDefault();
-      $('html, body').animate({
-        scrollTop: $(this.hash).offset().top - 55
-      }, 1000);
+  $('.front-arrow').click(function () {
+    $('html, body').animate({
+      scrollTop: $('#problems').offset().top
+    }, 'slow');
+  });
+  $('[data-fancybox]').fancybox({
+    youtube: {
+      controls: 0,
+      showinfo: 0
     }
   });
 });
 
 /***/ }),
 
-/***/ 3:
-/*!*********************************************!*\
-  !*** multi ./resources/assets/js/custom.js ***!
-  \*********************************************/
+/***/ 2:
+/*!*******************************************!*\
+  !*** multi ./resources/assets/js/home.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\laragon\www\pulauplastik\resources\assets\js\custom.js */"./resources/assets/js/custom.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\pulauplastik\resources\assets\js\home.js */"./resources/assets/js/home.js");
 
 
 /***/ })

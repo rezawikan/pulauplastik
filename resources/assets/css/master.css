@@ -19,7 +19,6 @@ img {
     width: 100%;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -84,7 +83,7 @@ img {
 }
 
 .mc-auto {
-  margin: auto !important
+    margin: auto !important
 }
 
 .bg-white {
@@ -95,17 +94,55 @@ img {
     width: 70%;
 }
 
+.img-lg {
+    width: 100%;
+}
+
+.img-md {
+    width: 80%;
+}
+
+.img-sm {
+    width: 70%;
+}
+
+.img-xs {
+    width: 60%;
+}
+
+.border-reset {
+    border-radius: 0 !important;
+    border-color: transparent !important;
+}
+
 .border-none {
     border-radius: 0 !important;
 }
 
-.bg-dark {
-    background-color: #f9f9f9 !important;
+.container-inner {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .header-custom {
-    padding: 3.5em 1em 1em;
+    padding: 3.5em 0 1em;
     /* background-color: #e9ecef; */
+}
+
+.contact-us form input.half {
+    width: 50%;
+}
+
+.contact-us form {
+    padding: 2em 1em 5em;
+}
+
+form {
+    background-color: #f8f9fa;
+}
+
+form input, form textarea, form button {
+    border-radius: 0 !important;
 }
 
 .header-custom h1 {
@@ -114,43 +151,117 @@ img {
 
 .navbar-toggler {
     border-radius: 0;
+    border-color: grey;
 }
 
 .navbar-toggler:focus {
     outline: transparent !important;
 }
 
-.navbar-nav .nav-item .nav-link {
-    color: #000;
+nav .navbar-brand {
+    color: #000000 !important;
+}
+
+.navbar-nav .nav-item .nav-link, .navbar-nav .dropdown .dropdown-menu .dropdown-item {
     font-family: 'BebasNeueReg';
     letter-spacing: .2em;
-    /* padding: 2rem 1rem; */
 }
 
-.navbar-nav .nav-item .nav-link .active {
-    color: #000;
+.navbar-scroll {
+    background-color: #f9f9f9 !important;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
+.navbar-scroll .jumbotron .navbar-nav .nav-item .nav-link {
+    color: #000000 !important;
+}
+
+.navbar-scroll .dropdown .dropdown-menu .dropdown-item {
+    color: #000000 !important;
+}
+
+.navbar-scroll .nav-item .nav-link {
+    color: #000000 !important;
+}
+
+.navbar-scroll .nav-item .nav-link:hover {
     color: #c9c9c9 !important;
 }
 
-.dropdown .dropdown-menu {
+.navbar-scroll .dropdown .dropdown-menu {
     border-radius: 0 !important;
-    background-color: inherit !important;
+    background-color: #f9f9f9 !important;
     border: 0 !important;
 }
 
-.dropdown .dropdown-menu .dropdown-item {
-    color: white;
-    font-family: 'BebasNeueReg';
-    letter-spacing: .2em;
-    border-radius: 0 !important;
-    background-color: inherit !important;
-    /* border: 0 !important; */
+.navbar-scroll .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #c9c9c9 !important;
+    background-color: transparent !important;
 }
 
-.dropdown .dropdown-menu .dropdown-item:hover {
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-transparent .dropdown .dropdown-menu {
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+.navbar-transparent .nav-item .nav-link {
+    color: #FFFFFF !important;
+}
+
+.navbar-transparent .nav-item .nav-link:hover {
+    color: #c9c9c9 !important;
+}
+
+.navbar-transparent .dropdown .dropdown-menu .dropdown-item {
+    color: #FFFFFF !important;
+    border-radius: 0 !important;
+}
+
+.navbar-transparent .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #c9c9c9 !important;
+    background-color: transparent !important;
+}
+
+.navbar-transparent .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-scroll .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark {
+    background-color: #f9f9f9 !important;
+}
+
+.navbar-dark .nav-item .nav-link {
+    color: #000000 !important;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    color: #c9c9c9 !important;
+}
+
+.navbar-dark .dropdown .dropdown-menu {
+    border-radius: 0 !important;
+    background-color: #f9f9f9 !important;
+    border: 0 !important;
+}
+
+.navbar-dark .dropdown .dropdown-menu .dropdown-item {
+    color: #000000 !important;
+    border-radius: 0 !important;
+}
+
+.navbar-dark .dropdown .dropdown-menu .dropdown-item:hover {
     color: #c9c9c9 !important;
 }
 
@@ -350,6 +461,11 @@ footer h6, footer p, footer btn-custom {
     border-radius: 0 !important;
 }
 
+/* .btn-custom:focus, .btn-custom:active {
+  border: 0px !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+} */
 .input-custom {
     border-radius: 0 !important;
 }
@@ -371,9 +487,9 @@ footer h6, footer p, footer btn-custom {
     text-decoration: none;
 }
 
-.card img {
+.card img.broder-none {
     border-radius: 0 !important;
-    height: 180px;
+    /* height: 180px; */
 }
 
 .card-body h1, .card-body h2, .card-body h3, .card-body h4, .card-body h5, .card-body h6, .card-body h7, .card-body p {
@@ -419,13 +535,25 @@ footer {
 @media (min-width: 1200px) {}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-inner {
+        width: 70%;
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container-inner {
+        width: 70%;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container-inner {
+        width: 80%;
+    }
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -448,5 +576,9 @@ footer {
 
     .subscribe .btn-custom {
         width: 100% !important;
+    }
+
+    .container-inner {
+        width: 95%;
     }
 }
