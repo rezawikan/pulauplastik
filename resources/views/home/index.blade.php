@@ -20,9 +20,9 @@
   </div>
 
   <!-- Video Trailer -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="is-fullwidth">
+  <div class="">
+    <div class="row no-gutters">
+      <div class="col-md-12">
         <a data-fancybox href="https://youtu.be/X5FB3cf8Rks"><img src="{{asset('img/video-picture.jpg')}}" target="_blank" alt="Trailer Pulau Plastik"></a>
       </div>
     </div>
@@ -45,16 +45,16 @@
   <!-- Partner One-->
   <div class="container-fluid">
     <div class="row">
-      <div class="is-fullwidth m-auto py-4 img-partner">
+      <div class="col-md-12 m-auto py-4 img-partner">
         <img src="{{asset('img/partner-one.png')}}" alt="Partners">
       </div>
     </div>
   </div>
 
   <!-- Gede Robi -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="is-fullwidth m-auto py-4">
+  <div class="">
+    <div class="row no-gutters">
+      <div class="col-md-12 m-auto py-4">
         <a href="#"><img src="{{asset('img/gede-robi.jpg')}}" class="" alt="Gede Robi - Navicula"></a>
       </div>
     </div>
@@ -81,7 +81,7 @@
       <div class="col-md-12">
         <div class="py-4">
           <h6>supported By</h6>
-          <div class="is-fullwidth m-auto img-partner">
+          <div class="m-auto img-partner">
             <a href="#"><img src="{{asset('img/partner-two.png')}}" alt="Partners"></a>
           </div>
         </div>

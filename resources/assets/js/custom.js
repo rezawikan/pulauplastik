@@ -1,4 +1,4 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
     // direct browser to top right away
     if (window.location.hash)
@@ -43,4 +43,4 @@ $(document).ready(function() {
         }
     });
 
-});
+// });

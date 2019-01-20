@@ -14,7 +14,7 @@
         <li class="nav-item dropdown ml-1 mr-3">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           The Series</a>
-          <div class="dropdown-menu home" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu fade home" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('the-series.index')}}#about-the-series" >About The Series</a>
             <a class="dropdown-item" href="{{route('the-series.index')}}#the-team">The Team</a>
@@ -25,7 +25,7 @@
         <li class="nav-item dropdown ml-1 mr-3">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Screenings</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('the-series.index')}}#upcoming">Upcoming</a>
             <a class="dropdown-item" href="{{route('the-series.index')}}#the-team">Host a Screenings</a>
@@ -34,7 +34,7 @@
         <li class="nav-item dropdown ml-1 mr-3">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Press Kit</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('the-series.index')}}#upcoming">Photo</a>
             <a class="dropdown-item" href="{{route('the-series.index')}}#the-team">Press Release</a>
@@ -43,7 +43,7 @@
         <li class="nav-item dropdown ml-1 mr-3">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Resources</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('the-series.index')}}#upcoming">Why is plastik a problem?</a>
             <a class="dropdown-item" href="{{route('the-series.index')}}#the-team">What can I do?</a>
