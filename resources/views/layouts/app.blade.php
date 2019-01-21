@@ -18,8 +18,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta name="og:title" content="K-Apps"/>
-    <meta name="og:description" content="Internal System of Kopernik"/>
+    <meta name="og:title" content="Pulau Plastik"/>
+    <meta name="og:description" content="Serial edutainment bersama host Gede Robi (aktivis lingkungan dan vokalis band Navicula) menelusuri isu penanganan sampah plastik di Bali. Lebih Lanjut."/>
     <meta name="author" content="Mochammad Rezza Wikandito, reza.wikan.dito@gmail.com">
     <meta name="owner" content="Kopernik (NGO)">
     <link rel='fluid-icon' type='image/png' href='https://intranet.kopernik.info/img/k-icon.png'>
