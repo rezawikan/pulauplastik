@@ -19,6 +19,16 @@ img {
     width: 100%;
 }
 
+#upcoming .frame iframe {
+  width: 100%;
+  height: 870px;
+}
+
+#upcoming .frame  {
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -554,6 +564,12 @@ footer {
     .container-inner {
         width: 80%;
     }
+
+    #upcoming .frame  {
+      width: 70%;
+      height: auto;
+      margin: 0 auto;
+    }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -581,5 +597,11 @@ footer {
 
     .container-inner {
         width: 95%;
+    }
+
+    #upcoming .frame  {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
     }
 }

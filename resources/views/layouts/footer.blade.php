@@ -1,8 +1,6 @@
 <footer class="footer-text py-4">
   <div class="container">
     <div class="row">
-      <!-- <div class="col-md-6 col-sm-6">
-        </div> -->
       <div class="col-md-6 offset-md-6">
         <div>
           <h6>Support This Project</h6>
