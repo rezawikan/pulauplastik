@@ -734,6 +734,10 @@ footer .footer-nav li a:hover {
     .border-side-custom {
         border-left: none;
     }
+
+    footer .logo {
+        margin: inherit;
+    }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -785,6 +789,10 @@ footer .footer-nav li a:hover {
 
     .border-side-custom {
         border-left: none;
+    }
+
+    footer .logo {
+        margin: inherit;
     }
 }
 
