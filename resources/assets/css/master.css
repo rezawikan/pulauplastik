@@ -264,7 +264,7 @@ form input, form textarea, form button {
 
 .navbar-toggler {
     border-radius: 0;
-    border-color: #e7e7e7;
+    border-color: #0f0f0f;
 }
 
 .navbar-toggler:focus {

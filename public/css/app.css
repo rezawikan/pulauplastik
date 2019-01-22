@@ -11826,7 +11826,6 @@ img {
 
 .socmed-footer {
     width: 100%;
-    height: 30px;
 }
 
 .socmed-footer ul {
@@ -12021,7 +12020,7 @@ form input, form textarea, form button {
 
 .navbar-toggler {
     border-radius: 0;
-    border-color: #e7e7e7;
+    border-color: #0f0f0f;
 }
 
 .navbar-toggler:focus {
@@ -12491,6 +12490,10 @@ footer .footer-nav li a:hover {
     .border-side-custom {
         border-left: none;
     }
+
+    footer .logo {
+        margin: inherit;
+    }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -12542,6 +12545,10 @@ footer .footer-nav li a:hover {
 
     .border-side-custom {
         border-left: none;
+    }
+
+    footer .logo {
+        margin: inherit;
     }
 }
 
