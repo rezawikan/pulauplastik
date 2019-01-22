@@ -14,11 +14,13 @@
 <div id="upcoming" class="container-fluid default-text">
     <div class="row">
         <div class="col-md-12">
-            <div class="py-4">
+            <div class="py-4 container-inner-text">
                 <h3>Upcoming</h3>
-                <div class="frame">
+                <img src="{{ asset('storage/img/main/potato-head-event-header.jpg')}}" alt="">
+                <p>The momentum to take action against Bali's plastic waste problem is rising, which means it's the perfect time to share Pulau Plastik, our exciting new series exploring the issue of waste and featuring local initiatives across the island. We invite you to join us for the launch of Pulau Plastik at Potato Head Bali. For RSVP, please fill the <a href="https://goo.gl/dMG3Ri">form</a>.</p>
+                {{-- <div class="frame">
                   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9rmyVK6YRBNXpdXu_uuC2paorBiYhSTNU1MlUx8lw8QGSnA/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -31,8 +33,7 @@
             <h3>Host A Screening</h3>
         </div>
         <div class="col-md-12">
-            <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun.</p>
-            <p>Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
+            <p>Coming Soon</p>
         </div>
     </div>
 </div>

@@ -59,6 +59,19 @@
     {{-- <div class="front-logo">
       <img src="{{ asset('img/pulau_plastik_logo_white.png') }}" alt="Logo Pulau Plastik">
     </div> --}}
+    {{-- <div class="btn-front">
+      <div class="row">
+        <div class="col-md-4">
+          asd
+        </div>
+        <div class="col-md-4">
+          ads
+        </div>
+        <div class="col-md-4">
+          asdasd
+        </div>
+      </div>
+    </div> --}}
     <div class="front-arrow bounce">
       <img src="{{asset('img/arrow-down.png')}}" alt="Arrow">
     </div>

@@ -32,48 +32,88 @@
         <div class="row">
           <div class="col-md-3 col-sm-6 col-lg-3">
             <div class="card border-reset">
-              <a href="join-us-for-the-lauch-of-pulau-plastik.html" class="text-center">
-              <img src="https://v1.kopernik.info/pictures/team/Ewa_Wojkowska.JPG" class="img-xs rounded-circle" alt="...">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/gede-robi.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">Ewa Wojkowska</h6>
-                  <p class="card-text">Ewa co-founded Kopernik after a decade of work with the United Nations and</p>
-                  <p class="card-text"><small class="text-muted">16 December 2018</small></p>
+                  <h6 class="card-title">Gede Robi (Navicula)</h6>
+                  <p class="card-text">Musician, Activist, TV Host, Famer</p>
                 </div>
               </a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
             <div class="card border-reset">
-              <a href="join-us-for-the-lauch-of-pulau-plastik.html" class="text-center">
-              <img src="https://v1.kopernik.info/pictures/team/Ewa_Wojkowska.JPG" class="img-xs rounded-circle" alt="...">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/dandhy-laksono.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">Ewa Wojkowska</h6>
-                  <p class="card-text">Ewa co-founded Kopernik after a decade of work with the United Nations and</p>
-                  <p class="card-text"><small class="text-muted">16 December 2018</small></p>
+                  <h6 class="card-title">Dandhy Laksono</h6>
+                  <p class="card-text">WatchdoC, Journalist, Director, Documentary Producer</p>
                 </div>
               </a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
             <div class="card border-reset">
-              <a href="join-us-for-the-lauch-of-pulau-plastik.html" class="text-center">
-              <img src="https://v1.kopernik.info/pictures/team/Ewa_Wojkowska.JPG" class="img-xs rounded-circle" alt="...">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/shinta-retnani.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">Ewa Wojkowska</h6>
-                  <p class="card-text">Ewa co-founded Kopernik after a decade of work with the United Nations and</p>
-                  <p class="card-text"><small class="text-muted">16 December 2018</small></p>
+                  <h6 class="card-title">Shinta Retnani</h6>
+                  <p class="card-text">Documentary Producer Asa Film</p>
                 </div>
               </a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
             <div class="card border-reset">
-              <a href="join-us-for-the-lauch-of-pulau-plastik.html" class="text-center">
-              <img src="https://v1.kopernik.info/pictures/team/Ewa_Wojkowska.JPG" class="img-xs rounded-circle" alt="...">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/nadia-astari.jpg')}}" class="img-xs rounded-circle" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Nadia Astari</h6>
+                  <p class="card-text">Filmmaker</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-lg-3">
+            <div class="card border-reset">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/lakota-moira.jpg')}}" class="img-xs rounded-circle" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Lakota Moira</h6>
+                  <p class="card-text">Producer Akarumput</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-lg-3">
+            <div class="card border-reset">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/ewa-wojkowska.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Ewa Wojkowska</h6>
-                  <p class="card-text">Ewa co-founded Kopernik after a decade of work with the United Nations and</p>
-                  <p class="card-text"><small class="text-muted">16 December 2018</small></p>
+                  <p class="card-text">Co-Founder, Kopernik Ex-UNDP, World Bank</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-lg-3">
+            <div class="card border-reset">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/anna-baranova.jpg')}}" class="img-xs rounded-circle" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Anna Baranova</h6>
+                  <p class="card-text">Associate Director, Kopernik</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-lg-3">
+            <div class="card border-reset">
+              <a href="#" class="text-center">
+              <img src="{{ asset('storage/img/team/andre-dananjaya.jpg')}}" class="img-xs rounded-circle" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Andre Dananjaya</h6>
+                  <p class="card-text">Senior Communications Officer, Kopernik</p>
                 </div>
               </a>
             </div>
@@ -84,17 +124,31 @@
   </div>
 
   <!-- Partner -->
-  <div id="partners" class="container default-text py-4">
+  <div id="partners" class="container-fluid default-text py-4 bg-grey">
     <div class="row">
       <div class="col-md-12">
-        <h3>Partner</h3>
+        <h3>Partners</h3>
       </div>
       <div class="col-md-12">
-        <div class="is-fullwidth m-auto img-partner">
-          <a href="#"><img src="{{asset('img/partner-two.png')}}" alt="Partners"></a>
-        </div>
+        <div class="container-text partners">
+          <div class="partner-col-20">
+            <a href="#"><img src="{{ asset('img//partners/navicula.png') }}"></a>
+          </div>
+          <div class="partner-col-20">
+            <a href="#"><img src="{{ asset('img//partners/kopernik.png') }}"></a>
+          </div>
+          <div class="partner-col-20">
+            <a href="#"><img src="{{ asset('img//partners/akar-rumput.png') }}"></a>
+          </div>
+          <div class="partner-col-20">
+            <a href="#"><img src="{{ asset('img//partners/asa-film.png') }}"></a>
+          </div>
+          <div class="partner-col-20">
+            <a href="#"><img src="{{ asset('img//partners/nadia-astari.png') }}"></a>
+          </div>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- Press -->
@@ -102,10 +156,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3>Press</h3>
-      </div>
-      <div class="col-md-12">
-        <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun.</p>
-        <p>Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
+        <p>Coming Soon</p>
       </div>
     </div>
   </div>

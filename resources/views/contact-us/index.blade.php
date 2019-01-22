@@ -14,7 +14,7 @@
 <div class="container default-text contact-us py-4">
   <div class="row">
     <div class="col-md-12">
-      <div class="container-inner">
+      <div class="container-inner-form">
         <h3>Contact Us</h3>
         <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an</p>
         <form>

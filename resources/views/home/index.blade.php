@@ -8,12 +8,26 @@
 
 @section('content')
   <!-- Probelms -->
-  <div id="problems" class="container default-text transitions">
+  <div id="problems" class="container default-text transitions pt-4 pb-4">
     <div class="row">
       <div class="col-md-12">
-        <div class="pt-4 pb-4">
-          <p>Indonesia is the fourth most populous country in the world, yet it is the second largest marine plastic polluter. Each year, over 1.3 million tons of plastic are carried by its rivers into the surrounding oceans that are known to be
-            some of the most biodiverse places in the world. It is estimated that the island of Bali alone contributes up to 110,000 tonnes to this plastic waste annually.</p>
+        <div class="row no-gutters">
+          <div class="col-md-6 flex-fill">
+            <div class="socmed">
+              <ul>
+                <li><a><i class="fab fa-facebook-f"></i></a></li>
+                <li><a><i class="fab fa-instagram"></i></a></li>
+                <li><a><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+            <p class="text-uppercase">Join The Conversation</p>
+          </div>
+          <div class="col-md-6 flex-fill">
+            <div class="text-center border-side-custom">
+              <p class="px-5">A story hidden below the waves. A campaign to inspire action in unexpected places. </p>
+              <a href="https://goo.gl/Bisni1" class="btn btn-custom">Donate</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -23,30 +37,16 @@
   <div class="">
     <div class="row no-gutters">
       <div class="col-md-12">
-        <a data-fancybox href="https://youtu.be/X5FB3cf8Rks"><img src="{{asset('img/video-picture.jpg')}}" target="_blank" alt="Trailer Pulau Plastik"></a>
+        <img src="{{asset('img/sampah.png')}}" target="_blank" alt="Robi Navicula">
       </div>
     </div>
   </div>
 
 <!-- Description -->
-  <div class="container default-text">
+  <div class="container default-text p-4">
     <div class="row">
       <div class="col-md-12">
-        <div class="py-4">
-          <p>A video series that adopt an anthropological and cultural approach designed for local audiences and aimed at changing attitude and behavior towards waste and promoting better waste disposal practices.</p>
-          <p>PULAU PLASTIK is an edutainment series developed by Kopernik and Akarumput which explores the issue of waste management in Bali and what challenges are being faced by Bali community groups and the government, while also highlighting
-            best practices and sustainable solutions. Directed by Dandhy Laksono, with host Gede Robi of Navicula, the series will take a socio-cultural approach and examine the role of Balinese traditions and spirituality in waste management, as
-            well as the role of art and music as a means to create an eco-conscious movement on the island.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Partner One-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 m-auto py-4 img-partner">
-        <img src="{{asset('img/partner-one.png')}}" alt="Partners">
+        <p>Pulau Plastik is a series hosted by musician and activist Gede Robi that takes a critical look at the problem of plastic waste in Bali, uncovering the inconvenient truths about how it ends up in our landfills, our oceans and our food.</p>
       </div>
     </div>
   </div>
@@ -54,46 +54,50 @@
   <!-- Gede Robi -->
   <div class="">
     <div class="row no-gutters">
-      <div class="col-md-12 m-auto py-4">
+      <div class="col-md-12 m-auto">
         <a href="#"><img src="{{asset('img/gede-robi.jpg')}}" class="" alt="Gede Robi - Navicula"></a>
       </div>
     </div>
   </div>
 
-  <!-- Descriotion Gede Robi -->
-  <div id="testu" class="container default-text">
+  <!-- Description -->
+  <div class="container default-text p-4">
     <div class="row">
       <div class="col-md-12">
-        <div class="py-4">
-          <h3>OUR HOST : GEDE ROBI NAVICULA</h3>
-          <p>A video series that adopt an anthropological and cultural approach designed for local audiences and aimed at changing attitude and behavior towards waste and promoting better waste disposal practices.</p>
-          <p>PULAU PLASTIK is an edutainment series developed by Kopernik and Akarumput which explores the issue of waste management in Bali and what challenges are being faced by Bali community groups and the government, while also highlighting
-            best practices and sustainable solutions. Directed by Dandhy Laksono, with host Gede Robi of Navicula, the series will take a socio-cultural approach and examine the role of Balinese traditions and spirituality in waste management, as
-            well as the role of art and music as a means to create an eco-conscious movement on the island.</p>
-        </div>
+        <p>Robi examines the issue of plastic and waste in the context of Balinese culture and meets local champions behind real solutions to inspire and help Bali residents create positive change on their island.</p>
       </div>
     </div>
   </div>
 
   <!-- supported by -->
-  <div class="container default-text">
+  <div class="container default-text pb-4">
     <div class="row">
       <div class="col-md-12">
-        <div class="py-4">
-          <h6>supported By</h6>
-          <div class="m-auto img-partner">
-            <a href="#"><img src="{{asset('img/partner-two.png')}}" alt="Partners"></a>
+        <h6>supported By</h6>
+        <div class="container-text partners">
+          <div class="partner-col-25">
+            <a href="#"><img src="{{ asset('img/supported/body-shop.png') }}"></a>
           </div>
-        </div>
+          <div class="partner-col-25">
+            <a href="#"><img src="{{ asset('img/supported/ford-foundation.png') }}"></a>
+          </div>
+          <div class="partner-col-25">
+            <a href="#"><img src="{{ asset('img/supported/kemendagri.png') }}"></a>
+          </div>
+          <div class="partner-col-25">
+            <a href="#"><img src="{{ asset('img/supported/nat-geo.png') }}"></a>
+          </div>
       </div>
+    </div>
     </div>
   </div>
 
+
   <!-- Join Our movement -->
-  <div class="container default-text">
+  <!-- <div class="container default-text">
     <div class="row">
       <div class="col-md-12">
-        <!-- <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting.</p> -->
+        <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting.</p>
         <form class="subscribe pb-4" action="index.html" method="POST">
           <div class="input-group input-group-md mb-3">
             <input type="text" class="form-control input-custom" placeholder="Enter your email" aria-label="Small" aria-describedby="button-addon2">
@@ -105,6 +109,7 @@
       </div>
     </div>
   </div>
+  -->
 
 @endsection
 
