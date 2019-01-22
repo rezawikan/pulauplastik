@@ -5,9 +5,9 @@ $(document).ready(function() {
         slides: [{
                 src: "img/header.png"
             },
-            {
-                src: "img/poster-event.jpg"
-            },
+            // {
+            //     src: "img/poster-event.jpg"
+            // },
             // { src: "assets/img/robi.jpg" }
         ]
     });

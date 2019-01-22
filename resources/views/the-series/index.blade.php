@@ -21,7 +21,7 @@
     </div>
   </div>
   <!-- Descriotion Gede Robi -->
-  <div id="the-team" class="container default-text py-4">
+  <div id="the-team" class="container-fluid default-text py-4 bg-soft">
     <div class="row">
       <div class="col-md-12 mb-2">
           <h3>The Team</h3>
@@ -31,7 +31,7 @@
       <div class="col-md-12">
         <div class="row">
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/gede-robi.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -42,7 +42,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/dandhy-laksono.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -53,7 +53,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/shinta-retnani.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/nadia-astari.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -75,7 +75,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/lakota-moira.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -86,7 +86,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/ewa-wojkowska.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/anna-baranova.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -108,7 +108,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-lg-3">
-            <div class="card border-reset">
+            <div class="card card-team border-reset">
               <a href="#" class="text-center">
               <img src="{{ asset('storage/img/team/andre-dananjaya.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
@@ -132,19 +132,19 @@
       <div class="col-md-12">
         <div class="container-text partners">
           <div class="partner-col-20">
-            <a href="#"><img src="{{ asset('img//partners/navicula.png') }}"></a>
+            <a href="http://www.naviculamusic.com/"><img src="{{ asset('img//partners/navicula.png') }}"></a>
           </div>
           <div class="partner-col-20">
-            <a href="#"><img src="{{ asset('img//partners/kopernik.png') }}"></a>
+            <a href="https://kopernik.info/"><img src="{{ asset('img//partners/kopernik.png') }}"></a>
           </div>
           <div class="partner-col-20">
             <a href="#"><img src="{{ asset('img//partners/akar-rumput.png') }}"></a>
           </div>
           <div class="partner-col-20">
-            <a href="#"><img src="{{ asset('img//partners/asa-film.png') }}"></a>
+            <a href="https://asafilm.co/"><img src="{{ asset('img//partners/asa-film.png') }}"></a>
           </div>
           <div class="partner-col-20">
-            <a href="#"><img src="{{ asset('img//partners/nadia-astari.png') }}"></a>
+            <a href="http://www.nadiaastari.com/"><img src="{{ asset('img//partners/nadia-astari.png') }}"></a>
           </div>
       </div>
     </div>

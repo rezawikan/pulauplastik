@@ -16,24 +16,24 @@
     <div class="col-md-12">
       <div class="container-inner-form">
         <h3>Contact Us</h3>
-        <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an</p>
-        <form>
+        {{-- <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an</p> --}}
+        <form class="bg-soft">
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="inputCity">First Name</label>
+              <label for="firtName">First Name</label>
               <input type="text" class="form-control">
             </div>
             <div class="form-group col-md-6">
-              <label for="inputState">Last Name</label>
+              <label for="lastName">Last Name</label>
               <input type="text" class="form-control">
             </div>
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Email address</label>
+              <label for="emailAddress">Email address</label>
               <input type="email" class="form-control">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Your message</label>
+              <label for="YourMessage">Your message</label>
               <textarea class="form-control" rows="6"></textarea>
             </div>
             <button type="submit" class="btn btn-custom float-right">Submit</button>

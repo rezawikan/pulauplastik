@@ -11785,8 +11785,8 @@ img {
     margin: 0 auto;
 }
 
-.bg-grey {
-    background-color: grey;
+.bg-soft {
+    background-color: #e7e7e7;
 }
 
 .border-side-custom {
@@ -11794,20 +11794,21 @@ img {
 }
 
 .socmed {
-  width: 100%;
-  height: 50px;
+    width: 100%;
+    height: 50px;
 }
+
 .socmed ul {
-  display: table;
-  margin: auto;
-  padding: 0;
-  list-style: none;
+    display: table;
+    margin: auto;
+    padding: 0;
+    list-style: none;
 }
 
 .socmed ul li {
-  display: inline-block;
-  width: 3em;
-  padding: .3em .3em .4em;
+    display: inline-block;
+    width: 3em;
+    padding: .3em .3em .4em;
 }
 
 .socmed ul li:first-child {
@@ -11819,24 +11820,25 @@ img {
 }
 
 .socmed ul li a i {
-  color: black;
-  font-size: 2em;
+    color: black;
+    font-size: 2em;
 }
 
 .socmed-footer {
-  width: 100%;
-  height: 30px;
+    width: 100%;
+    height: 30px;
 }
+
 .socmed-footer ul {
-  display: table;
-  padding: 0;
-  list-style: none;
+    display: table;
+    padding: 0;
+    list-style: none;
 }
 
 .socmed-footer ul li {
-  display: inline-block;
-  width: 3em;
-  padding: .3em .3em .4em;
+    display: inline-block;
+    width: 3em;
+    padding: .3em .3em .4em;
 }
 
 .socmed-footer ul li:first-child {
@@ -11848,9 +11850,20 @@ img {
 }
 
 .socmed-footer ul li a i {
-  color: black;
-  font-size: 2em;
+    color: black;
+    font-size: 2em;
 }
+
+.socmed-footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.socmed-footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -12008,7 +12021,7 @@ form input, form textarea, form button {
 
 .navbar-toggler {
     border-radius: 0;
-    border-color: grey;
+    border-color: #e7e7e7;
 }
 
 .navbar-toggler:focus {
@@ -12170,7 +12183,7 @@ nav .navbar-brand {
 .jumbotron .front-logo {
     position: absolute;
     z-index: 1;
-    bottom: 10%;
+    bottom: 40%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -12181,6 +12194,24 @@ nav .navbar-brand {
 
 .jumbotron .front-logo img {
     width: 10em;
+}
+
+.jumbotron .front-text {
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    /* transform: translate(-50%,-50%); */
+}
+
+.jumbotron .front-text p {
+    font-size: 1.1em;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .jumbotron .front-arrow {
@@ -12198,7 +12229,7 @@ nav .navbar-brand {
 }
 
 .scroll-margin {
-    margin-top: 4em;
+    margin-top: 3.3em;
 }
 
 .scroll-color-header {
@@ -12254,57 +12285,42 @@ nav .navbar-brand {
 .footer-text h1 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
 }
 
 .footer-text h2 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
 }
 
 .footer-text h3 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
 }
 
 .footer-text h4 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
 }
 
 .footer-text h5 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
 }
 
 .footer-text h6 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
 }
 
- footer p, footer p a {
-    color: #fff;
+footer p, footer p a {
+    color: black;
 }
-
-/* footer .socmed-img {
-    width: 30px;
-}
-
-footer ul>li {
-    display: inline-block;
-    width: 35px;
-    float: right;
-}
-
-footer ul>li a {
-    color: #FFF;
-} */
-
 
 .btn-custom {
     padding: 10px 20px;
@@ -12354,6 +12370,10 @@ footer ul>li a {
     color: #000;
 }
 
+.card-team {
+    background-color: #e7e7e7;
+}
+
 .page-item .page-link {
     border-radius: 0 !important;
     color: #000;
@@ -12386,24 +12406,30 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top; */
-    background-color: grey;
+    background-color: #d8d8d8;
     height: auto;
 }
 
 footer .logo {
-  width: 7em;
-  margin: auto;
+    width: 7em;
+    margin: auto;
 }
 
 footer .footer-nav {
-  padding: 0;
+    padding: 0;
 }
+
 footer .footer-nav li {
-  list-style: none;
+    list-style: none;
 }
 
 footer .footer-nav li a {
-  color: #000000;
+    color: #000000;
+}
+
+footer .footer-nav li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -12463,7 +12489,7 @@ footer .footer-nav li a {
     }
 
     .border-side-custom {
-      border-left: none;
+        border-left: none;
     }
 }
 
@@ -12514,8 +12540,31 @@ footer .footer-nav li a {
         padding: 0 3em 0;
     }
 
-
     .border-side-custom {
-      border-left: none;
+        border-left: none;
+    }
+}
+
+@media (max-width: 472px) {
+    .jumbotron .front-logo {
+        bottom: 50%;
+    }
+
+    .jumbotron .front-logo img {
+        width: 6em;
+    }
+
+    .jumbotron .front-text {
+        bottom: 40%;
+    }
+
+    .jumbotron .front-text p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 428px) {
+    .jumbotron .front-text {
+        bottom: 35%;
     }
 }

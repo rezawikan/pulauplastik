@@ -98,8 +98,6 @@ $(document).ready(function () {
     delay: 7000,
     slides: [{
       src: "img/header.png"
-    }, {
-      src: "img/poster-event.jpg"
     }]
   });
 

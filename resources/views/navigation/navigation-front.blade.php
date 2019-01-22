@@ -35,7 +35,7 @@
           Press Kit</a>
           <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{route('press-kit.index')}}#upcoming">Photo</a>
+            <a class="dropdown-item" href="{{route('press-kit.index')}}#photo">Photo</a>
             <a class="dropdown-item" href="{{route('press-kit.index')}}#press-release">Press Release</a>
           </div>
         </li>
@@ -46,7 +46,7 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('resources.index')}}#why-is-plastik-a-problem">Why is plastik a problem?</a>
             <a class="dropdown-item" href="{{route('resources.index')}}#what-can-i-do">What can I do?</a>
-            <a class="dropdown-item" href="{{route('resources.index')}}#>what-is-the-government-doing">What is the government doing?</a>
+            <a class="dropdown-item" href="{{route('resources.index')}}#what-is-the-government-doing">What is the government doing?</a>
           </div>
         </li>
         <li class="nav-item ml-1 mr-3">
@@ -56,9 +56,7 @@
     </div>
   </nav>
   <div class="container">
-    {{-- <div class="front-logo">
-      <img src="{{ asset('img/pulau_plastik_logo_white.png') }}" alt="Logo Pulau Plastik">
-    </div> --}}
+
     {{-- <div class="btn-front">
       <div class="row">
         <div class="col-md-4">
@@ -72,6 +70,12 @@
         </div>
       </div>
     </div> --}}
+    <div class="front-logo">
+      <img src="{{ asset('img/pulau_plastik_logo_white.png') }}" alt="Logo Pulau Plastik">
+    </div>
+    <div class="front-text">
+      <p>The time to act is now, or... Bali will become a Plastic Island!</p>
+    </div>
     <div class="front-arrow bounce">
       <img src="{{asset('img/arrow-down.png')}}" alt="Arrow">
     </div>

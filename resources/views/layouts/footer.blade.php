@@ -8,26 +8,26 @@
         <p>Pulau Plastik is a collaboration between Kopernik and Akarumput.</p>
       </div>
       <div class="col-md-4">
-        <p>Join with us</p>
+        <h6>Join with us</h6>
         <div class="socmed-footer">
           <ul>
-            <li><a><i class="fab fa-facebook-f"></i></a></li>
-            <li><a><i class="fab fa-instagram"></i></a></li>
-            <li><a><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.facebook.com/pulauplastik/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/pulauplastik/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank"><i class="fab fa-youtube"></i></a></li>
           </ul>
-          <br>
-          <p>For enquiries contact:</p>
-          <p><a href="mailto:pulauplastik@kopernik.info">pulauplastik@kopernik.info</a></p>
+          <p>For enquiries contact:<br>
+            <a href="mailto:pulauplastik@kopernik.info">pulauplastik@kopernik.info</a>
+          </p>
         </div>
       </div>
       <div class="col-md-4">
-        <h6>Menus</h6>
+        <h6>Navigation</h6>
         <ul class="footer-nav">
-          <li><a href="">The Series</a></li>
-          <li><a href="">Screenings</a></li>
-          <li><a href="">Press Kit</a></li>
-          <li><a href="">Resources</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="{{route('the-series.index')}}">The Series</a></li>
+          <li><a href="{{route('screenings.index')}}">Screenings</a></li>
+          <li><a href="{{route('press-kit.index')}}">Press Kit</a></li>
+          <li><a href="{{route('resources.index')}}">Resources</a></li>
+          <li><a href="{{route('contact-us.index')}}">Contact Us</a></li>
         </ul>
       </div>
     </div>

@@ -8,24 +8,24 @@
 
 @section('content')
   <!-- Probelms -->
-  <div id="problems" class="container default-text transitions pt-4 pb-4">
+  <div id="problems" class="container-fluid default-text transitions pt-4 pb-4 bg-soft">
     <div class="row">
       <div class="col-md-12">
         <div class="row no-gutters">
           <div class="col-md-6 flex-fill">
             <div class="socmed">
               <ul>
-                <li><a><i class="fab fa-facebook-f"></i></a></li>
-                <li><a><i class="fab fa-instagram"></i></a></li>
-                <li><a><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.facebook.com/pulauplastik/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/pulauplastik/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank"><i class="fab fa-youtube"></i></a></li>
               </ul>
             </div>
             <p class="text-uppercase">Join The Conversation</p>
           </div>
           <div class="col-md-6 flex-fill">
             <div class="text-center border-side-custom">
-              <p class="px-5">A story hidden below the waves. A campaign to inspire action in unexpected places. </p>
-              <a href="https://goo.gl/Bisni1" class="btn btn-custom">Donate</a>
+              <p class="px-5">An Edutainment Series for A Cleaner Bali</p>
+              <a href="https://goo.gl/Bisni1" target="_blank" class="btn btn-custom">Donate</a>
             </div>
           </div>
         </div>
@@ -43,6 +43,7 @@
   </div>
 
 <!-- Description -->
+<div class="bg-soft">
   <div class="container default-text p-4">
     <div class="row">
       <div class="col-md-12">
@@ -50,6 +51,8 @@
       </div>
     </div>
   </div>
+</div>
+
 
   <!-- Gede Robi -->
   <div class="">
@@ -61,36 +64,42 @@
   </div>
 
   <!-- Description -->
-  <div class="container default-text p-4">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Robi examines the issue of plastic and waste in the context of Balinese culture and meets local champions behind real solutions to inspire and help Bali residents create positive change on their island.</p>
+  <div class="bg-soft">
+    <div class="container default-text p-4">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Robi examines the issue of plastic and waste in the context of Balinese culture and meets local champions behind real solutions to inspire and help Bali residents create positive change on their island.</p>
+        </div>
       </div>
     </div>
   </div>
 
+
   <!-- supported by -->
-  <div class="container default-text pb-4">
-    <div class="row">
-      <div class="col-md-12">
-        <h6>supported By</h6>
-        <div class="container-text partners">
-          <div class="partner-col-25">
-            <a href="#"><img src="{{ asset('img/supported/body-shop.png') }}"></a>
-          </div>
-          <div class="partner-col-25">
-            <a href="#"><img src="{{ asset('img/supported/ford-foundation.png') }}"></a>
-          </div>
-          <div class="partner-col-25">
-            <a href="#"><img src="{{ asset('img/supported/kemendagri.png') }}"></a>
-          </div>
-          <div class="partner-col-25">
-            <a href="#"><img src="{{ asset('img/supported/nat-geo.png') }}"></a>
-          </div>
+  <div class="bg-soft">
+    <div class="container default-text pb-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h6>supported By</h6>
+          <div class="container-text partners">
+            <div class="partner-col-25">
+              <a href="https://www.thebodyshop.co.id/"><img src="{{ asset('img/supported/body-shop.png') }}"></a>
+            </div>
+            <div class="partner-col-25">
+              <a href="https://www.fordfoundation.org/"><img src="{{ asset('img/supported/ford-foundation.png') }}"></a>
+            </div>
+            <div class="partner-col-25">
+              <a href="https://www.kemendagri.go.id/"><img src="{{ asset('img/supported/kemendagri.png') }}"></a>
+            </div>
+            <div class="partner-col-25">
+              <a href="https://www.nationalgeographic.com/"><img src="{{ asset('img/supported/nat-geo.png') }}"></a>
+            </div>
+        </div>
+      </div>
       </div>
     </div>
-    </div>
   </div>
+
 
 
   <!-- Join Our movement -->
