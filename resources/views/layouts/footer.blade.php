@@ -1,13 +1,13 @@
 <footer class="footer-text py-4">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 px-5">
         <div class="logo">
           <img src="{{ asset('img/pulau_plastik_logo_white.png')}}" alt="">
         </div>
         <p>Pulau Plastik is a collaboration between Kopernik and Akarumput.</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 px-5">
         <h6>Join with us</h6>
         <div class="socmed-footer">
           <ul>
@@ -20,15 +20,17 @@
           </p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 px-5">
         <h6>Navigation</h6>
-        <ul class="footer-nav">
-          <li><a href="{{route('the-series.index')}}">The Series</a></li>
-          <li><a href="{{route('screenings.index')}}">Screenings</a></li>
-          <li><a href="{{route('press-kit.index')}}">Press Kit</a></li>
-          <li><a href="{{route('resources.index')}}">Resources</a></li>
-          <li><a href="{{route('contact-us.index')}}">Contact Us</a></li>
-        </ul>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="{{route('the-series.index')}}">The Series</a></li>
+            <li><a href="{{route('screenings.index')}}">Screenings</a></li>
+            <li><a href="{{route('press-kit.index')}}">Press Kit</a></li>
+            <li><a href="{{route('resources.index')}}">Resources</a></li>
+            <li><a href="{{route('contact-us.index')}}">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

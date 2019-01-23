@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="py-4 container-inner-text">
-                <h3>Upcoming</h3>
+                <h3 class="text-center">Upcoming</h3>
                 <img src="{{ asset('storage/img/main/potato-head-event-header.jpg')}}" alt="">
                 <p>The momentum to take action against Bali's plastic waste problem is rising, which means it's the perfect time to share Pulau Plastik, our exciting new series exploring the issue of waste and featuring local initiatives across the island. We invite you to join us for the launch of Pulau Plastik at Potato Head Bali. For RSVP, please fill the <a href="https://goo.gl/dMG3Ri">form</a>.</p>
                 {{-- <div class="frame">
@@ -30,7 +30,7 @@
 <div id="host-a-screenings" class="container default-text py-4">
     <div class="row">
         <div class="col-md-12">
-            <h3>Host A Screening</h3>
+            <h3 class="text-center">Host A Screening</h3>
         </div>
         <div class="col-md-12">
             <p>Coming Soon</p>

@@ -14,7 +14,7 @@
 <div id="photo" class="container default-text py-4">
     <div class="row">
         <div class="col-md-12">
-            <h3>Photo</h3>
+            <h3 class="text-center">Photo</h3>
             <p>Coming Soon</p>
             {{-- <div class="row">
               <div class="col-md-6 col-sm-6 col-lg-4">
@@ -56,7 +56,7 @@
 <div id="press-release" class="container default-text py-4">
     <div class="row">
         <div class="col-md-12">
-            <h3>Press Release</h3>
+            <h3 class="text-center">Press Release</h3>
             <div class="container-inner-text mt-4">
               <div class="row">
                 <div class="col-md-6">

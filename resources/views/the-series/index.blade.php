@@ -14,7 +14,7 @@
   <div id="about-the-series" class="container default-text py-4">
     <div class="row">
       <div class="col-md-12">
-        <h3>About The Series</h3>
+        <h3 class="text-center">About The Series</h3>
         <p>A video series that adopt an anthropological and cultural approach designed for local audiences and aimed at changing attitude and behavior towards waste and promoting better waste disposal practices.</p>
         <p>PULAU PLASTIK is an edutainment series developed by Kopernik and Akarumput which explores the issue of waste management in Bali and what challenges are being faced by Bali community groups and the government, while also highlighting best practices and sustainable solutions. Directed by Dandhy Laksono, with host Gede Robi of Navicula, the series will take a socio-cultural approach and examine the role of Balinese traditions and spirituality in waste management, as well as the role of art and music as a means to create an eco-conscious movement on the island.</p>
       </div>
@@ -24,7 +24,7 @@
   <div id="the-team" class="container-fluid default-text py-4 bg-soft">
     <div class="row">
       <div class="col-md-12 mb-2">
-          <h3>The Team</h3>
+          <h3 class="text-center">The Team</h3>
       </div>
     </div>
     <div class="row">
@@ -127,7 +127,7 @@
   <div id="partners" class="container-fluid default-text py-4 bg-grey">
     <div class="row">
       <div class="col-md-12">
-        <h3>Partners</h3>
+        <h3 class="text-center">Partners</h3>
       </div>
       <div class="col-md-12">
         <div class="container-text partners">
@@ -155,7 +155,7 @@
   <div id="press" class="container default-text py-4">
     <div class="row">
       <div class="col-md-12">
-        <h3>Press</h3>
+        <h3 class="text-center">Press</h3>
         <p>Coming Soon</p>
       </div>
     </div>

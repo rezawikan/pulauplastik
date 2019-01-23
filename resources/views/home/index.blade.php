@@ -76,11 +76,11 @@
 
 
   <!-- supported by -->
-  <div class="bg-soft">
-    <div class="container default-text pb-4">
+  <div class="">
+    <div class="container default-text py-4">
       <div class="row">
         <div class="col-md-12">
-          <h6>supported By</h6>
+          <h6 class="text-center">supported By</h6>
           <div class="container-text partners">
             <div class="partner-col-25">
               <a href="https://www.thebodyshop.co.id/"><img src="{{ asset('img/supported/body-shop.png') }}"></a>

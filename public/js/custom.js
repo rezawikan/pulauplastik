@@ -106,6 +106,7 @@ $(function () {
     e.preventDefault();
 
     if (this.hash) {
+      $('.navbar-collapse').collapse('hide');
       $('html,body').animate({
         scrollTop: $($(this).attr('href')).offset().top - 55
       }, 1000);

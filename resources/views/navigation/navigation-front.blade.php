@@ -76,6 +76,13 @@
     <div class="front-text">
       <p>The time to act is now, or... Bali will become a Plastic Island!</p>
     </div>
+    <div class="front-container-btn">
+      <ul>
+        <li><a href="https://youtu.be/4xUAUWcPq74" data-fancybox class="btn btn-custom">Watch The Trailer</a></li>
+        <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank" class="btn btn-custom">Watch The Series</a></li>
+        <li><a href="#" class="btn btn-custom take-action">Take Action</a></li>
+      </ul>
+    </div>
     <div class="front-arrow bounce">
       <img src="{{asset('img/arrow-down.png')}}" alt="Arrow">
     </div>

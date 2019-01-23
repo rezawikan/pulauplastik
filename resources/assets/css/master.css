@@ -1,6 +1,6 @@
 body {
     font-family: 'ProximaNovaReg', sans-serif;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 1.4;
     color: #392d23;
 }
@@ -70,6 +70,8 @@ img {
 
 .socmed-footer {
     width: 100%;
+    /* text-align: -webkit-center; */
+    /* text-align: center; */
 }
 
 .socmed-footer ul {
@@ -391,9 +393,9 @@ nav .navbar-brand {
 }
 
 .front-background {
-    /* background: url('../img/header.png') center no-repeat; */
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url('../img/header.png') center no-repeat;
+    /* background-repeat: no-repeat;
+    background-position: center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -471,6 +473,32 @@ nav .navbar-brand {
     cursor: pointer;
 }
 
+.jumbotron .front-container-btn {
+    position: absolute;
+    bottom: 25%;
+    text-align: center;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.jumbotron .front-container-btn ul {
+    display: table;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.jumbotron .front-container-btn ul li {
+    display: inline-block;
+    margin: 0 5em;
+    padding: .3em .3em .4em;
+}
+
+.jumbotron .front-container-btn ul li {
+    width: 210px;
+}
+
 .scroll-margin {
     margin-top: 3.3em;
 }
@@ -489,73 +517,30 @@ nav .navbar-brand {
 }
 
 /* FONTs */
+.default-text p {
+    font-family: 'ProximaNovaReg';
+    text-align: center;
+}
+
 .default-text .normal-text {
     text-transform: capitalize;
-    font-family: 'ProximaNovaReg';
 }
 
-.default-text p {
-    /* font-size: 20px; */
-    font-family: 'ProximaNovaReg';
-    text-align: center;
-}
-
-.default-text h1 {
-    text-align: center;
-}
-
-.default-text h2 {
-    text-align: center;
-}
-
-.default-text h3 {
-    text-align: center;
-}
-
-.default-text h4 {
-    text-align: center;
-}
-
-.default-text h5 {
-    text-align: center;
-}
-
+/* .default-text h1,
+.default-text h2,
+.default-text h3,
+.default-text h4,
+.default-text h5,
 .default-text h6 {
     text-align: center;
-}
+} */
 
 /* FOOTER */
-.footer-text h1 {
-    font-family: 'FuturaStdBold', sans-serif;
-    text-transform: uppercase;
-    color: black;
-}
-
-.footer-text h2 {
-    font-family: 'FuturaStdBold', sans-serif;
-    text-transform: uppercase;
-    color: black;
-}
-
-.footer-text h3 {
-    font-family: 'FuturaStdBold', sans-serif;
-    text-transform: uppercase;
-    color: black;
-}
-
-.footer-text h4 {
-    font-family: 'FuturaStdBold', sans-serif;
-    text-transform: uppercase;
-    color: black;
-}
-
-.footer-text h5 {
-    font-family: 'FuturaStdBold', sans-serif;
-    text-transform: uppercase;
-    color: black;
-}
-
-.footer-text h6 {
+.footer-text h1,
+.footer-text h2,
+.footer-text h3,
+.footer-text h4,
+.footer-text h5, .footer-text h6 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
     color: black;
@@ -655,22 +640,28 @@ footer {
 
 footer .logo {
     width: 7em;
-    margin: auto;
+    /* margin: auto; */
 }
 
 footer .footer-nav {
-    padding: 0;
+      margin: 0 auto;
+      /* width: 50%; */
 }
 
-footer .footer-nav li {
+footer .footer-nav ul {
+    padding: 0;
+
+}
+
+footer .footer-nav ul li {
     list-style: none;
 }
 
-footer .footer-nav li a {
+footer .footer-nav ul li a {
     color: #000000;
 }
 
-footer .footer-nav li a:hover {
+footer .footer-nav ul li a:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -687,6 +678,10 @@ footer .footer-nav li a:hover {
     .container-inner-text {
         width: 80%;
     }
+
+    .jumbotron .front-container-btn ul li {
+        margin: 0 3em;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -702,6 +697,12 @@ footer .footer-nav li a:hover {
     .partners {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .jumbotron .front-container-btn ul li {
+        display: inline-block;
+        margin: 0 .5em;
+        padding: .1em .1em .1em;
     }
 }
 
@@ -733,6 +734,18 @@ footer .footer-nav li a:hover {
 
     .border-side-custom {
         border-left: none;
+    }
+
+    .jumbotron .front-container-btn ul li {
+        width: 150px;
+        display: inline-block;
+        margin: 0 1em;
+    }
+
+    .jumbotron .front-container-btn ul li a {
+        font-size: .7em;
+        height: 40px;
+        padding: 15px !important;
     }
 
     footer .logo {
@@ -791,6 +804,18 @@ footer .footer-nav li a:hover {
         border-left: none;
     }
 
+    .jumbotron .front-container-btn ul li {
+        width: 150px;
+        display: inline-block;
+        margin: 0 1em;
+    }
+
+    .jumbotron .front-container-btn ul li a {
+        font-size: .7em;
+        height: 40px;
+        padding: 15px !important;
+    }
+
     footer .logo {
         margin: inherit;
     }
@@ -817,5 +842,9 @@ footer .footer-nav li a:hover {
 @media (max-width: 428px) {
     .jumbotron .front-text {
         bottom: 35%;
+    }
+
+    .jumbotron .front-container-btn {
+        bottom: 15%;
     }
 }

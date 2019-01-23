@@ -94,13 +94,17 @@
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
-  $(".front-background").vegas({
-    delay: 7000,
-    slides: [{
-      src: "img/header.png"
-    }]
-  });
-
+  // $(".front-background").vegas({
+  //     delay: 7000,
+  //     slides: [{
+  //             src: "img/header.png"
+  //         },
+  //         // {
+  //         //     src: "img/poster-event.jpg"
+  //         // },
+  //         // { src: "assets/img/robi.jpg" }
+  //     ]
+  // });
   if (window.pageYOffset >= window.innerHeight) {
     $("nav").addClass("navbar-scroll");
     $("nav").removeClass("navbar-transparent");
@@ -125,6 +129,11 @@ $(document).ready(function () {
     }
   });
   $('.front-arrow').click(function () {
+    $('html, body').animate({
+      scrollTop: $('#problems').offset().top
+    }, 'slow');
+  });
+  $('.take-action').click(function () {
     $('html, body').animate({
       scrollTop: $('#problems').offset().top
     }, 'slow');
