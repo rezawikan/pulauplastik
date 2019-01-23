@@ -5,23 +5,23 @@
         <div class="logo">
           <img src="{{ asset('img/pulau_plastik_logo_white.png')}}" alt="">
         </div>
-        <p>Pulau Plastik is a collaboration between Kopernik and Akarumput.</p>
+        <p>Pulau Plastik merupakan kolaborasi aksi antara Kopernik dan Akarumput.</p>
       </div>
       <div class="col-md-4 px-5">
-        <h6>Join with us</h6>
+        <h6>Ikuti Kami</h6>
         <div class="socmed-footer">
           <ul>
             <li><a href="https://www.facebook.com/pulauplastik/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="https://www.instagram.com/pulauplastik/" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank"><i class="fab fa-youtube"></i></a></li>
           </ul>
-          <p>For enquiries contact:<br>
+          <p>Informasi lebih lanjut hubungi:<br>
             <a href="mailto:pulauplastik@kopernik.info">pulauplastik@kopernik.info</a>
           </p>
         </div>
       </div>
       <div class="col-md-4 px-5">
-        <h6>Navigation</h6>
+        <h6>Menu</h6>
         <div class="footer-nav">
           <ul>
             <li><a href="{{route('the-series.index')}}">The Series</a></li>

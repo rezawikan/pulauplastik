@@ -17,7 +17,7 @@
             <div class="py-4 container-inner-text">
                 <h3 class="text-center">Upcoming</h3>
                 <img src="{{ asset('storage/img/main/potato-head-event-header.jpg')}}" alt="">
-                <p>The momentum to take action against Bali's plastic waste problem is rising, which means it's the perfect time to share Pulau Plastik, our exciting new series exploring the issue of waste and featuring local initiatives across the island. We invite you to join us for the launch of Pulau Plastik at Potato Head Bali. For RSVP, please fill the <a href="https://goo.gl/dMG3Ri">form</a>.</p>
+                <p>Momentum untuk beraksi terhadap masalah sampah plastik di Bali semakin meningkat. Sekarang adalah waktu yang tepat untuk meluncurkan Pulau Plastik, serial menarik terbaru kami yang menelusuri masalah sampah dengan melibatkan inisiatif lokal di seluruh pulau Bali. Kami mengundang Anda untuk bergabung di acara peluncuran Pulau Plastik di Potato Head Bali. Untuk reservasi, mohon mengisi <a href="https://goo.gl/dMG3Ri">form</a> ini.</p>
                 {{-- <div class="frame">
                   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9rmyVK6YRBNXpdXu_uuC2paorBiYhSTNU1MlUx8lw8QGSnA/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                 </div> --}}

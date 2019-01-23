@@ -74,13 +74,13 @@
       <img src="{{ asset('img/pulau_plastik_logo_white.png') }}" alt="Logo Pulau Plastik">
     </div>
     <div class="front-text">
-      <p>The time to act is now, or... Bali will become a Plastic Island!</p>
+      <p>Waktu untuk bertindak adalah sekarang.. <br>atau Bali akan menjadi Pulau Plastik!</p>
     </div>
     <div class="front-container-btn">
       <ul>
-        <li><a href="https://youtu.be/4xUAUWcPq74" data-fancybox class="btn btn-custom">Watch The Trailer</a></li>
-        <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank" class="btn btn-custom">Watch The Series</a></li>
-        <li><a href="#" class="btn btn-custom take-action">Take Action</a></li>
+        <li><a href="https://youtu.be/4xUAUWcPq74" data-fancybox class="btn btn-custom">Tonton Trailer</a></li>
+        <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank" class="btn btn-custom">Tonton serial</a></li>
+        <li><a href="https://goo.gl/Bisni1" class="btn btn-custom">beraksi sekarang</a></li>
       </ul>
     </div>
     <div class="front-arrow bounce">

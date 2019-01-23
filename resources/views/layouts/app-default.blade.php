@@ -12,6 +12,7 @@
     <meta property="og:title" content="@yield('title') | @yield('tagline')" />
     <meta property="og:description" content="@yield('description')" />
     <meta property="og:image" content="http://pulauplastik.org/assets/pulau-plastik.png" />
+    <meta name="google-site-verification" content="Net9RhKRq82Y5Cy_hUS3Nc9I2Ug0v-RCXketdDjcTG8" />
 
     <!-- Icon -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon.png') }}">

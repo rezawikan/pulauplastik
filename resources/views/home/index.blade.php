@@ -8,7 +8,7 @@
 
 @section('content')
   <!-- Probelms -->
-  <div id="problems" class="container-fluid default-text transitions pt-4 pb-4 bg-soft">
+  <div id="problems" class="container-fluid default-text transitions py-4 bg-soft">
     <div class="row">
       <div class="col-md-12">
         <div class="row no-gutters">
@@ -20,12 +20,12 @@
                 <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank"><i class="fab fa-youtube"></i></a></li>
               </ul>
             </div>
-            <p class="text-uppercase">Join The Conversation</p>
+            <p class="header text-uppercase">ikuti kami</p>
           </div>
           <div class="col-md-6 flex-fill">
             <div class="text-center border-side-custom">
-              <p class="px-5">An Edutainment Series for A Cleaner Bali</p>
-              <a href="https://goo.gl/Bisni1" target="_blank" class="btn btn-custom">Donate</a>
+              <p class="header px-5 text-uppercase">mari dukung untuk Bali yang lebih bersih</p>
+              <a href="https://goo.gl/Bisni1" target="_blank" class="btn btn-custom">Donasi</a>
             </div>
           </div>
         </div>
@@ -43,11 +43,11 @@
   </div>
 
 <!-- Description -->
-<div class="bg-soft">
+<div class="">
   <div class="container default-text p-4">
     <div class="row">
       <div class="col-md-12">
-        <p>Pulau Plastik is a series hosted by musician and activist Gede Robi that takes a critical look at the problem of plastic waste in Bali, uncovering the inconvenient truths about how it ends up in our landfills, our oceans and our food.</p>
+        <p>Pulau Plastik adalah serial yang dipandu oleh musisi dan aktivis Gede Robi yang menyoroti pencemaran sampah plastik di Bali, serta mengupas fakta dibalik luapan sampah plastik yang berakhir di tempat pembuangan sampah, di laut, dan di makanan kita.</p>
       </div>
     </div>
   </div>
@@ -64,11 +64,11 @@
   </div>
 
   <!-- Description -->
-  <div class="bg-soft">
+  <div class="">
     <div class="container default-text p-4">
       <div class="row">
         <div class="col-md-12">
-          <p>Robi examines the issue of plastic and waste in the context of Balinese culture and meets local champions behind real solutions to inspire and help Bali residents create positive change on their island.</p>
+          <p>Robi menyoroti masalah sampah dalam konteks budaya lokal sekaligus bertemu dengan para komunitas lokal yang telah memberikan solusi nyata. Serial ini bertujuan untuk membagi inspirasi dan membantu warga membuat perubahan positif di Bali yang berkelanjutan.</p>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
     <div class="container default-text py-4">
       <div class="row">
         <div class="col-md-12">
-          <h6 class="text-center">supported By</h6>
+          <h6 class="text-center">Didukung Oleh</h6>
           <div class="container-text partners">
             <div class="partner-col-25">
               <a href="https://www.thebodyshop.co.id/"><img src="{{ asset('img/supported/body-shop.png') }}"></a>
