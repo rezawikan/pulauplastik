@@ -17,3 +17,4 @@ Route::get('screenings', 'Screenings\ScreeningsController@index')->name('screeni
 Route::get('press-kit', 'PressKit\PressKitController@index')->name('press-kit.index');
 Route::get('resources', 'Resources\ResourcesController@index')->name('resources.index');
 Route::get('contact-us', 'ContactUs\ContactUsController@index')->name('contact-us.index');
+Route::post('contact-us', 'ContactUs\ContactUsController@store')->name('contact-us.store');

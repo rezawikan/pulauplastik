@@ -16,25 +16,31 @@
     <div class="col-md-12">
       <div class="container-inner-form">
         <h3 class="text-center">Contact Us</h3>
-        {{-- <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an</p> --}}
-        <form class="bg-soft">
+        @if (session('status'))
+            <div class="alert alert-success alert-dismissable">
+                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                {{ session('status') }}.
+            </div>
+        @endif
+        <form class="bg-soft" method="POST" action="{{ route('contact-us.store')}}">
+          @csrf
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="firtName">First Name</label>
-              <input type="text" class="form-control">
+              <input type="text" class="form-control" name="firstName" required>
             </div>
             <div class="form-group col-md-6">
               <label for="lastName">Last Name</label>
-              <input type="text" class="form-control">
+              <input type="text" class="form-control" name="lastName" required>
             </div>
             </div>
             <div class="form-group">
               <label for="emailAddress">Email address</label>
-              <input type="email" class="form-control">
+              <input type="email" class="form-control" name="email" required>
             </div>
             <div class="form-group">
               <label for="YourMessage">Your message</label>
-              <textarea class="form-control" rows="6"></textarea>
+              <textarea class="form-control" rows="6" name="message" required></textarea>
             </div>
             <button type="submit" class="btn btn-custom float-right">Submit</button>
         </form>

@@ -12141,7 +12141,7 @@ nav .navbar-brand {
 .jumbotron .front-logo {
     position: absolute;
     z-index: 1;
-    bottom: 35%;
+    bottom: 30%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -12151,7 +12151,8 @@ nav .navbar-brand {
 }
 
 .jumbotron .front-logo img {
-    width: 12em;
+    width: 15em;
+    index: -1;
 }
 
 .jumbotron .front-text {
@@ -12514,11 +12515,11 @@ footer .footer-nav ul li a:hover {
     }
 
     .jumbotron .front-logo {
-        bottom: 40%;
+        bottom: 35%;
     }
 
     .jumbotron .front-logo img {
-        width: 10em;
+        width: 12em;
     }
 
     .jumbotron .front-text {

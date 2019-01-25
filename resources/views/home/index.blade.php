@@ -37,7 +37,7 @@
   <div class="">
     <div class="row no-gutters">
       <div class="col-md-12">
-        <img src="{{asset('img/gede-robi-one.jpg')}}" target="_blank" alt="Robi Navicula">
+        <img src="{{asset('img/gede-robi-one.JPG')}}" target="_blank" alt="Robi Navicula">
       </div>
     </div>
   </div>

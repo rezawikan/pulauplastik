@@ -1,0 +1,9 @@
+ DONE  Compiled successfully in 3356ms11:29:49
+
+                 Asset      Size               Chunks             Chunk Names
+            /js/app.js   794 KiB              /js/app  [emitted]  /js/app
+         /js/custom.js  5.52 KiB           /js/custom  [emitted]  /js/custom
+           /js/home.js  5.71 KiB             /js/home  [emitted]  /js/home
+/js/jquery.fancybox.js   157 KiB  /js/jquery.fancybox  [emitted]  /js/jquery.fancybox
+          /js/vegas.js  22.8 KiB            /js/vegas  [emitted]  /js/vegas
+          \css\app.css   241 KiB                       [emitted]  
