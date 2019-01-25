@@ -24,7 +24,7 @@
           </div>
           <div class="col-md-6 flex-fill">
             <div class="text-center border-side-custom">
-              <p class="header px-5 text-uppercase">mari dukung untuk Bali yang lebih bersih</p>
+              <p class="header px-5 text-uppercase">Waktu untuk bertindak adalah sekarang.. <br>atau Bali akan menjadi Pulau Plastik!</p>
               <a href="https://goo.gl/Bisni1" target="_blank" class="btn btn-custom">Donasi</a>
             </div>
           </div>
@@ -37,7 +37,7 @@
   <div class="">
     <div class="row no-gutters">
       <div class="col-md-12">
-        <img src="{{asset('img/sampah.png')}}" target="_blank" alt="Robi Navicula">
+        <img src="{{asset('img/gede-robi-one.jpg')}}" target="_blank" alt="Robi Navicula">
       </div>
     </div>
   </div>
@@ -47,7 +47,9 @@
   <div class="container default-text p-4">
     <div class="row">
       <div class="col-md-12">
-        <p>Pulau Plastik adalah serial yang dipandu oleh musisi dan aktivis Gede Robi yang menyoroti pencemaran sampah plastik di Bali, serta mengupas fakta dibalik luapan sampah plastik yang berakhir di tempat pembuangan sampah, di laut, dan di makanan kita.</p>
+        <div class="container-inner-text">
+          <p>Pulau Plastik adalah serial yang dipandu oleh musisi dan aktivis Gede Robi yang menyoroti pencemaran sampah plastik di Bali, serta mengupas fakta dibalik luapan sampah plastik yang berakhir di tempat pembuangan sampah, di laut, dan di makanan kita.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -58,7 +60,7 @@
   <div class="">
     <div class="row no-gutters">
       <div class="col-md-12 m-auto">
-        <a href="#"><img src="{{asset('img/gede-robi.jpg')}}" class="" alt="Gede Robi - Navicula"></a>
+        <a href="#"><img src="{{asset('img/gede-robi-two.jpg')}}" class="" alt="Gede Robi - Navicula"></a>
       </div>
     </div>
   </div>
@@ -68,7 +70,22 @@
     <div class="container default-text p-4">
       <div class="row">
         <div class="col-md-12">
-          <p>Robi menyoroti masalah sampah dalam konteks budaya lokal sekaligus bertemu dengan para komunitas lokal yang telah memberikan solusi nyata. Serial ini bertujuan untuk membagi inspirasi dan membantu warga membuat perubahan positif di Bali yang berkelanjutan.</p>
+          <div class="container-inner-text">
+            <p>Robi menyoroti masalah sampah dalam konteks budaya lokal sekaligus bertemu dengan para komunitas lokal yang telah memberikan solusi nyata. Serial ini bertujuan untuk membagi inspirasi dan membantu warga membuat perubahan positif di Bali yang berkelanjutan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Horizontal Line -->
+  <div class="">
+    <div class="container default-text p-4">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container-inner-text">
+            <hr>
+          </div>
         </div>
       </div>
     </div>

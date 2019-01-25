@@ -73,9 +73,9 @@
     <div class="front-logo">
       <img src="{{ asset('img/pulau_plastik_logo_white.png') }}" alt="Logo Pulau Plastik">
     </div>
-    <div class="front-text">
+    {{-- <div class="front-text">
       <p>Waktu untuk bertindak adalah sekarang.. <br>atau Bali akan menjadi Pulau Plastik!</p>
-    </div>
+    </div> --}}
     <div class="front-container-btn">
       <ul>
         <li><a href="https://youtu.be/4xUAUWcPq74" data-fancybox class="btn btn-custom">Tonton Trailer</a></li>
