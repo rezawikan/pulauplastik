@@ -109,11 +109,17 @@ $(document).ready(function () {
     $("nav").addClass("navbar-scroll");
     $("nav").removeClass("navbar-transparent");
     $("#problems").addClass("scroll-margin");
+    $('.small-logo').attr('src', function () {
+      return this.src.replace('logo_whites', 'logo_black');
+    });
   } else {
     //remove the background property so it comes transparent again (defined in your css)
     $("nav").removeClass("navbar-scroll");
     $("nav").addClass("navbar-transparent");
     $("#problems").removeClass("scroll-margin");
+    $('.small-logo').attr('src', function () {
+      return this.src.replace('logo_black', 'logo_whites');
+    });
   }
 
   $(window).on("scroll", function () {
@@ -121,11 +127,18 @@ $(document).ready(function () {
       $("nav").addClass("navbar-scroll");
       $("nav").removeClass("navbar-transparent");
       $("#problems").addClass("scroll-margin");
+      $('.small-logo').attr('src', function () {
+        console.log('test');
+        return this.src.replace('logo_whites', 'logo_black');
+      });
     } else {
       //remove the background property so it comes transparent again (defined in your css)
       $("nav").removeClass("navbar-scroll");
       $("nav").addClass("navbar-transparent");
       $("#problems").removeClass("scroll-margin");
+      $('.small-logo').attr('src', function () {
+        return this.src.replace('logo_black', 'logo_whites');
+      });
     }
   });
   $('.front-arrow').click(function () {

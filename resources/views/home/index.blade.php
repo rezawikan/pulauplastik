@@ -20,11 +20,11 @@
                 <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank"><i class="fab fa-youtube"></i></a></li>
               </ul>
             </div>
-            <p class="header text-uppercase">ikuti kami</p>
+            <p class="header text-uppercase" style="color:white;">ikuti kami</p>
           </div>
           <div class="col-md-6 flex-fill">
             <div class="text-center border-side-custom">
-              <p class="header px-5 text-uppercase">Waktu untuk bertindak adalah sekarang.. <br>atau Bali akan menjadi Pulau Plastik!</p>
+              <p class="header px-4 text-uppercase" style="color:white;">Waktu untuk bertindak adalah sekarang.. <br>atau Bali akan menjadi Pulau Plastik!</p>
               <a href="https://goo.gl/Bisni1" target="_blank" class="btn btn-custom">Donasi</a>
             </div>
           </div>
@@ -34,20 +34,20 @@
   </div>
 
   <!-- Video Trailer -->
-  <div class="">
+  <div class="trailer">
     <div class="row no-gutters">
       <div class="col-md-12">
-        <img src="{{asset('img/gede-robi-one.JPG')}}" target="_blank" alt="Robi Navicula">
+        <iframe src="https://www.youtube.com/embed/4xUAUWcPq74?vq=hd1080" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 
 <!-- Description -->
-<div class="">
+<div class="bg-soft">
   <div class="container default-text p-4">
     <div class="row">
       <div class="col-md-12">
-        <div class="container-inner-text">
+        <div class="container-inner-text" style="color:white;">
           <p>Pulau Plastik adalah serial yang dipandu oleh musisi dan aktivis Gede Robi yang menyoroti pencemaran sampah plastik di Bali, serta mengupas fakta dibalik luapan sampah plastik yang berakhir di tempat pembuangan sampah, di laut, dan di makanan kita.</p>
         </div>
       </div>
@@ -60,26 +60,34 @@
   <div class="">
     <div class="row no-gutters">
       <div class="col-md-12 m-auto">
-        <a href="#"><img src="{{asset('img/gede-robi-two.jpg')}}" class="" alt="Gede Robi - Navicula"></a>
+        <a href="#"><img src="{{asset('img/gede-robi-one.JPG')}}" class="" alt="Gede Robi - Navicula"></a>
       </div>
     </div>
   </div>
 
   <!-- Description -->
-  <div class="">
+  <div class="bg-soft">
     <div class="container default-text p-4">
       <div class="row">
         <div class="col-md-12">
           <div class="container-inner-text">
-            <p>Robi menyoroti masalah sampah dalam konteks budaya lokal sekaligus bertemu dengan para komunitas lokal yang telah memberikan solusi nyata. Serial ini bertujuan untuk membagi inspirasi dan membantu warga membuat perubahan positif di Bali yang berkelanjutan.</p>
+            <p style="color:white;">Robi menyoroti masalah sampah dalam konteks budaya lokal sekaligus bertemu dengan para komunitas lokal yang telah memberikan solusi nyata. Serial ini bertujuan untuk membagi inspirasi dan membantu warga membuat perubahan positif di Bali yang berkelanjutan.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  {{-- <div class="">
+    <div class="row no-gutters">
+      <div class="col-md-12">
+        <img src="{{asset('img/gede-robi-one.JPG')}}" target="_blank" alt="Robi Navicula">
+      </div>
+    </div>
+  </div> --}}
+
   <!-- Horizontal Line -->
-  <div class="">
+  {{-- <div class="">
     <div class="container default-text p-4">
       <div class="row">
         <div class="col-md-12">
@@ -89,7 +97,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 
 
   <!-- supported by -->

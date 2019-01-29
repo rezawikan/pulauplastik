@@ -22,7 +22,7 @@
                 {{ session('status') }}.
             </div>
         @endif
-        <form class="bg-soft" method="POST" action="{{ route('contact-us.store')}}">
+        <form class="bg-soft-two" method="POST" action="{{ route('contact-us.store')}}">
           @csrf
           <div class="form-row">
             <div class="form-group col-md-6">

@@ -1,7 +1,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron full-height front-background transitions">
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
-    <a class="navbar-brand d-sm-none" href="#">PULAU PLASTIK</a>
+    <a class="navbar-brand" href="#"><img class="small-logo" src="{{ asset('img/pulau_plastik_logo_whites.png') }}" alt="Logo Pulau Plastik" style="width:50px;"></a>
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,7 +27,7 @@
           <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('screenings.index')}}#upcoming">Upcoming</a>
-            <a class="dropdown-item" href="{{route('screenings.index')}}#host-a-screenings">Host a Screenings</a>
+            <a class="dropdown-item" href="{{route('screenings.index')}}#host-a-screening">Host a Screening</a>
           </div>
         </li>
         <li class="nav-item dropdown ml-1 mr-3">
@@ -76,13 +76,13 @@
     {{-- <div class="front-text">
       <p>Waktu untuk bertindak adalah sekarang.. <br>atau Bali akan menjadi Pulau Plastik!</p>
     </div> --}}
-    <div class="front-container-btn">
+    {{-- <div class="front-container-btn">
       <ul>
         <li><a href="https://youtu.be/4xUAUWcPq74" data-fancybox class="btn btn-custom">Tonton Trailer</a></li>
         <li><a href="https://www.youtube.com/channel/UCZ8v9tyreRJPOBjYrgLDHaw" target="_blank" class="btn btn-custom">Tonton serial</a></li>
         <li><a href="https://goo.gl/Bisni1" class="btn btn-custom">beraksi sekarang</a></li>
       </ul>
-    </div>
+    </div> --}}
     <div class="front-arrow bounce">
       <img src="{{asset('img/arrow-down.png')}}" alt="Arrow">
     </div>

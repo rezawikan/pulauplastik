@@ -108,7 +108,7 @@ $(function () {
     if (this.hash) {
       $('.navbar-collapse').collapse('hide');
       $('html,body').animate({
-        scrollTop: $($(this).attr('href')).offset().top - 55
+        scrollTop: $($(this).attr('href')).offset().top - 76
       }, 1000);
     }
   }); // if we have anchor on the url (calling from other page)
@@ -116,7 +116,7 @@ $(function () {
   if (window.location.hash) {
     // smooth scroll to the anchor id
     $('html,body').animate({
-      scrollTop: $(window.location.hash).offset().top - 55
+      scrollTop: $(window.location.hash).offset().top - 66
     }, 1000);
   }
 });
@@ -125,7 +125,7 @@ $(".dropdown-item").on('click', function (e) {
     // console.log('asd');
     e.preventDefault();
     $('html, body').animate({
-      scrollTop: $(this.hash).offset().top - 55
+      scrollTop: $(this.hash).offset().top - 76
     }, 1000);
   }
 }); // Add slideDown animation to dropdown

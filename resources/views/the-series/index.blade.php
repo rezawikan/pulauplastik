@@ -1,6 +1,6 @@
 @extends('layouts.app-default')
 
-@section('title',  'The Series')
+@section('title',  'Tentang Serial')
 
 @section('tagline','Surga  Yang Terancam Sampah Plastik')
 
@@ -14,17 +14,17 @@
   <div id="about-the-series" class="container default-text py-4">
     <div class="row">
       <div class="col-md-12">
-        <h3 class="text-center">About The Series</h3>
+        <h3 class="text-center">Tentang Serial</h3>
         <p>Serial video dengan pendekatan antropologis dan budaya yang dirancang untuk penonton lokal, bertujuan untuk mengubah perilaku publik terhadap masalah sampah plastik sekaligus menunjukan sistem pengelolaan sampah yang lebih baik.</p>
-        <p>PULAU PLASTIK merupakan seri edutainment yang diproduksi oleh Kopernik dan Akarumput. Serial ini mengeksplorasi masalah pengelolaan sampah di Bali, serta tantangan yang sedang dihadapi oleh masyarakat Bali dan pemerintah. Serial ini juga turut menyoroti kebiasaan baik dan solusi yang berkelanjutan. Disutradarai oleh Dandhy Laksono, dengan pembawa acara Gede Robi dari Navicula, serial ini menggunakan pendekatan sosial-budaya dan menunjukan peran tradisi dan spiritual Bali dalam pengelolaan limbah, sekaligus peran seni dan musik sebagai medium kampanye untuk mendorong gerakan ramah lingkungan. </p>
+        <p>PULAU PLASTIK merupakan seri edutainment yang diproduksi oleh Kopernik dan Akarumput. Serial ini mengeksplorasi masalah pengelolaan sampah di Bali, serta tantangan yang sedang dihadapi oleh masyarakat Bali dan pemerintah. Serial ini juga turut menyoroti kebiasaan baik dan solusi yang berkelanjutan. Disutradarai oleh Dandhy Laksono, dengan pembawa acara Gede Robi dari Navicula, serial ini menggunakan pendekatan sosial-budaya dan menunjukan peran tradisi dan spiritual Bali dalam pengelolaan limbah, sekaligus peran seni dan musik sebagai medium kampanye untuk mendorong gerakan ramah lingkungan.</p>
       </div>
     </div>
   </div>
   <!-- Descriotion Gede Robi -->
-  <div id="the-team" class="container-fluid default-text py-4 bg-soft">
+  <div id="the-team" class="container-fluid default-text py-4">
     <div class="row">
       <div class="col-md-12 mb-2">
-          <h3 class="text-center">The Team</h3>
+          <h3 class="text-center">Tim</h3>
       </div>
     </div>
     <div class="row">
@@ -36,7 +36,7 @@
               <img src="{{ asset('storage/img/team/gede-robi.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Gede Robi (Navicula)</h6>
-                  <p class="card-text">Musician, Activist, TV Host, Famer</p>
+                  <p class="card-text">Musisi, Aktifis, Pemandu Acara, Petani</p>
                 </div>
               </a>
             </div>
@@ -47,7 +47,7 @@
               <img src="{{ asset('storage/img/team/dandhy-laksono.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Dandhy Laksono</h6>
-                  <p class="card-text">WatchdoC, Journalist, Director, Documentary Producer</p>
+                  <p class="card-text">WatchDoc, Jurnalis, Sutradara, Produser Dokumenter</p>
                 </div>
               </a>
             </div>
@@ -58,7 +58,7 @@
               <img src="{{ asset('storage/img/team/shinta-retnani.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Shinta Retnani</h6>
-                  <p class="card-text">Documentary Producer Asa Film</p>
+                  <p class="card-text">Produser Dokumenter ASA Film</p>
                 </div>
               </a>
             </div>
@@ -69,7 +69,7 @@
               <img src="{{ asset('storage/img/team/nadia-astari.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Nadia Astari</h6>
-                  <p class="card-text">Filmmaker</p>
+                  <p class="card-text">Pembuat Film</p>
                 </div>
               </a>
             </div>
@@ -80,7 +80,7 @@
               <img src="{{ asset('storage/img/team/lakota-moira.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Lakota Moira</h6>
-                  <p class="card-text">Producer Akarumput</p>
+                  <p class="card-text">Produser Akarumput</p>
                 </div>
               </a>
             </div>
@@ -91,7 +91,7 @@
               <img src="{{ asset('storage/img/team/ewa-wojkowska.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Ewa Wojkowska</h6>
-                  <p class="card-text">Co-Founder, Kopernik Ex-UNDP, World Bank</p>
+                  <p class="card-text">Pendiri Kopernik</p>
                 </div>
               </a>
             </div>
@@ -102,7 +102,7 @@
               <img src="{{ asset('storage/img/team/anna-baranova.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Anna Baranova</h6>
-                  <p class="card-text">Associate Director, Kopernik</p>
+                  <p class="card-text">Direktur Rekanan Kopernik</p>
                 </div>
               </a>
             </div>
@@ -113,7 +113,7 @@
               <img src="{{ asset('storage/img/team/andre-dananjaya.jpg')}}" class="img-xs rounded-circle" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">Andre Dananjaya</h6>
-                  <p class="card-text">Senior Communications Officer, Kopernik</p>
+                  <p class="card-text">Staff Komunikasi Senior</p>
                 </div>
               </a>
             </div>
@@ -127,7 +127,7 @@
   <div id="partners" class="container-fluid default-text py-4 bg-grey">
     <div class="row">
       <div class="col-md-12">
-        <h3 class="text-center">Partners</h3>
+        <h3 class="text-center">Rekan</h3>
       </div>
       <div class="col-md-12">
         <div class="container-text partners">
@@ -155,7 +155,7 @@
   <div id="press" class="container default-text py-4">
     <div class="row">
       <div class="col-md-12">
-        <h3 class="text-center">Press</h3>
+        <h3 class="text-center">Pers</h3>
         <p>Coming Soon</p>
       </div>
     </div>
