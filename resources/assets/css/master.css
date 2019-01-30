@@ -1,7 +1,7 @@
 body {
     font-family: 'ProximaNovaReg', sans-serif;
     font-size: 16px;
-    line-height: 1.4;
+    /* line-height: 1.4; */
     color: #392d23;
 }
 
@@ -364,6 +364,7 @@ nav .navbar-brand {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .front-background:after {
@@ -478,7 +479,7 @@ nav .navbar-brand {
 }
 
 .scroll-color-header {
-    color: black !important;
+    color: #181d29 !important;
 }
 
 /* PADDING AND MARGIN */
@@ -605,7 +606,7 @@ nav .navbar-brand {
 .footer-text h5, .footer-text h6 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #181d29;
 }
 
 footer p, footer p a {

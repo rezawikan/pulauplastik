@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-  <a class="navbar-brand" href="#"><img class="small-logo" src="{{ asset('img/pulau_plastik_logo_black.png') }}" alt="Logo Pulau Plastik" style="width:50px;"></a>
+  <a class="navbar-brand" href="/"><img class="small-logo" src="{{ asset('img/pulau_plastik_logo_black.png') }}" alt="Logo Pulau Plastik" style="width:50px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
   </button>

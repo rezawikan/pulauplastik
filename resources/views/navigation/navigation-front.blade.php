@@ -1,7 +1,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron full-height front-background transitions">
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
-    <a class="navbar-brand" href="#"><img class="small-logo" src="{{ asset('img/pulau_plastik_logo_whites.png') }}" alt="Logo Pulau Plastik" style="width:50px;"></a>
+    <a class="navbar-brand" href="/"><img class="small-logo" src="{{ asset('img/pulau_plastik_logo_whites.png') }}" alt="Logo Pulau Plastik" style="width:50px;"></a>
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

@@ -14,8 +14,8 @@
 <div id="photo" class="container default-text py-4">
     <div class="row">
         <div class="col-md-12">
-            <h3 class="text-center">Photo</h3>
-            <p>Coming Soon</p>
+            <h3 class="text-center">Foto</h3>
+            <p>Segera</p>
             {{-- <div class="row">
               <div class="col-md-6 col-sm-6 col-lg-4">
                 <div class="card">

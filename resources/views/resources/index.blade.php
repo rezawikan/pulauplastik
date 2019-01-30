@@ -15,8 +15,8 @@
     <div class="row">
         <div class="col-md-12">
             <div class="py-4">
-                <h3 class="text-center">Why is plastik a problem?</h3>
-                <p>Coming Soon</p>
+                <h3 class="text-center">Kenapa plastik menjadi masalah?</h3>
+                <p>Segera</p>
             </div>
         </div>
     </div>
@@ -28,8 +28,8 @@
     <div class="row">
         <div class="col-md-12">
             <div class="py-4">
-                <h3 class="text-center">What can I do?</h3>
-                <p>Coming Soon</p>
+                <h3 class="text-center">Apa yang bisa saya lakukan?</h3>
+                <p>Segera</p>
             </div>
         </div>
     </div>
@@ -40,8 +40,8 @@
     <div class="row">
         <div class="col-md-12">
             <div class="py-4">
-                <h3 class="text-center">What is the government doing?</h3>
-                <p>Coming Soon</p>
+                <h3 class="text-center">Apa yang pemerintah sedang lakukan?</h3>
+                <p>Segera</p>
             </div>
         </div>
     </div>

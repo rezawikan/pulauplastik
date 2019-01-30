@@ -33,7 +33,7 @@
             <h3 class="text-center">Selenggarakan Pemutaran</h3>
         </div>
         <div class="col-md-12">
-            <p>Coming Soon</p>
+            <p>Segera</p>
         </div>
     </div>
 </div>
