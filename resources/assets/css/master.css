@@ -1,14 +1,12 @@
 body {
     font-family: 'ProximaNovaReg', sans-serif;
     font-size: 16px;
-    /* line-height: 1.4; */
     color: #392d23;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'FuturaStdBold', sans-serif;
     text-transform: uppercase;
-    /* line-height: 1; */
 }
 
 p {
@@ -141,7 +139,7 @@ img {
 }
 
 .mc-auto {
-    margin: auto !important
+    margin: auto !important;
 }
 
 .bg-white {
@@ -210,7 +208,6 @@ img {
 
 .header-custom {
     padding: 3.5em 0 1em;
-    /* background-color: #e9ecef; */
 }
 
 .contact-us form input.half {
@@ -221,9 +218,6 @@ img {
     padding: 2em 1em 5em;
 }
 
-/* form {
-    background-color: #f8f9fa;
-} */
 form input, form textarea, form button {
     border-radius: 0 !important;
 }
@@ -234,7 +228,6 @@ form input, form textarea, form button {
 
 .navbar-toggler {
     border-radius: 0;
-    /* border-color: #0f0f0f; */
 }
 
 .navbar-toggler:focus {
