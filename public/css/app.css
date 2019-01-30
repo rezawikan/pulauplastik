@@ -11756,7 +11756,7 @@ body.compensate-for-scrollbar {
 
 body {
     font-family: 'Abel', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #392d23;
 }
 
@@ -11976,7 +11976,7 @@ img {
 
 .contact-us form {
     padding: 2em 1em 5em;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 form input, form textarea, form button {
@@ -12181,7 +12181,7 @@ nav .navbar-brand {
 }
 
 .jumbotron .front-text p {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #FFFFFF;
     text-align: center;
     font-family: 'FuturaStdBold'
@@ -12253,7 +12253,7 @@ nav .navbar-brand {
 .default-text p {
     text-align: center;
     letter-spacing: .3px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 
@@ -12371,7 +12371,7 @@ nav .navbar-brand {
 
 footer p, footer p a {
     color: #FFFFFF;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 footer {
@@ -12405,7 +12405,7 @@ footer .footer-nav ul li {
 
 footer .footer-nav ul li a {
     color: #FFFFFF;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 footer .footer-nav ul li a:hover {
