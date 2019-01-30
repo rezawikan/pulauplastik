@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-4 px-5">
         <div class="logo">
-          <img src="{{ asset('img/pulau_plastik_logo_white.png')}}" alt="">
+          <img src="{{ asset('img/pulau_plastik_logo_black.png')}}" alt="">
         </div>
         <p>Pulau Plastik merupakan kolaborasi aksi antara Kopernik dan Akarumput.</p>
       </div>

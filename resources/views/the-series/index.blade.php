@@ -156,7 +156,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3 class="text-center">Pers</h3>
-        <p>Coming Soon</p>
+        <p>Segera</p>
       </div>
     </div>
   </div>
