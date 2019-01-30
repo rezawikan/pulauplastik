@@ -126,16 +126,16 @@ img {
 }
 
 /* Additional */
-:root {
+/* :root {
     --app-height: 100%;
-}
+} */
 
 .full-height {
     height: 100vh !important;
 
-    @media not all and (hover: hover) {
+    /* @media not all and (hover: hover) {
         height: var(--app-height);
-    }
+    } */
 }
 
 .mc-auto {
