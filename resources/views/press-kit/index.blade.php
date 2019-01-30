@@ -47,41 +47,6 @@
                     <img src="{{ asset('storage/img/photo/6.jpg') }}" />
                   </a>
                 </div>
-                <div class="card">
-                  <a href="{{ asset('storage/img/photo/7.jpg') }}" data-fancybox="images" data-caption="">
-                    <img src="{{ asset('storage/img/photo/7.jpg') }}" />
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="{{ asset('storage/img/photo/8.jpg') }}" data-fancybox="images" data-caption="">
-                    <img src="{{ asset('storage/img/photo/8.jpg') }}" />
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="{{ asset('storage/img/photo/9.jpg') }}" data-fancybox="images" data-caption="">
-                    <img src="{{ asset('storage/img/photo/9.jpg') }}" />
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="{{ asset('storage/img/photo/10.jpg') }}" data-fancybox="images" data-caption="">
-                    <img src="{{ asset('storage/img/photo/10.jpg') }}" />
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="{{ asset('storage/img/photo/11.jpg') }}" data-fancybox="images" data-caption="">
-                    <img src="{{ asset('storage/img/photo/11.jpg') }}" />
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="{{ asset('storage/img/photo/12.jpg') }}" data-fancybox="images" data-caption="">
-                    <img src="{{ asset('storage/img/photo/12.jpg') }}" />
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="{{ asset('storage/img/photo/13.jpeg') }}" data-fancybox="images" data-caption="">
-                    <img src="{{ asset('storage/img/photo/13.jpeg') }}" />
-                  </a>
-                </div>
             </div>
         </div>
     </div>
