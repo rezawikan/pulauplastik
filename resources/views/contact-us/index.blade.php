@@ -26,23 +26,23 @@
           @csrf
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="firtName">First Name</label>
+              <label for="firtName">Nama Depan</label>
               <input type="text" class="form-control" name="firstName" required>
             </div>
             <div class="form-group col-md-6">
-              <label for="lastName">Last Name</label>
+              <label for="lastName">Nama Belakang</label>
               <input type="text" class="form-control" name="lastName" required>
             </div>
             </div>
             <div class="form-group">
-              <label for="emailAddress">Email address</label>
+              <label for="emailAddress">Alamat Email</label>
               <input type="email" class="form-control" name="email" required>
             </div>
             <div class="form-group">
-              <label for="YourMessage">Your message</label>
+              <label for="YourMessage">Pesan</label>
               <textarea class="form-control" rows="6" name="message" required></textarea>
             </div>
-            <button type="submit" class="btn btn-custom float-right">Submit</button>
+            <button type="submit" class="btn btn-custom float-right">Kirim</button>
         </form>
       </div>
     </div>

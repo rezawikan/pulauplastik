@@ -40,7 +40,7 @@ class ContactUsController extends Controller
     {
         $when = now();
 
-        Notification::route('mail', 'rezza.wikandito@kopernik.info')->notify((new ContactUsNotification($request))->delay($when));
+        Notification::route('mail', 'pulauplastik@kopernik.info')->notify((new ContactUsNotification($request))->delay($when));
 
         return redirect('contact-us')->with('status', 'Terimakasih telah menghubungi kami');
     }
