@@ -17,17 +17,25 @@
             <div class="py-4 container-inner-text">
                 <h3 class="text-center">Mendatang</h3>
                 <br>
-                <h6 class="text-center">IDN Time - Milennials Jauhkan Plastik Dari Bumi</h6>
+                {{-- <h6 class="text-center">IDN Time - Milennials Jauhkan Plastik Dari Bumi</h6> --}}
                 <img src="{{ asset('storage/img/main/idn.jpeg')}}" alt="">
-                <p>Bali sebagai destinasi wisata memiliki total timbunan sampah yang mencapai hampir 30 persen. Sampah tersebut merupakan sampah anorganik yang terdiri dari kertas, logam, kaca, plastik, dan karet. <sup title="Data Sampah Tertinggi di Provinsi Bali"><a  href="bali.idntimes.com/news/bali/amp/imamrosidin/data-sampah-tertinggi-di-provinsi-bali">1</a></sup></p>
-
-                <p>Denpasar yang merupakan pusat kota dari Bali setiap harinya memproduksi 850 ton sampah dan 30% persen, diantaranya adalah sampah anorganik. Dari 30% tersebut sampah plastik mendominasi sebesar 15%. <sup title="Penerapan Tidak Boleh Pakai Kantong Plastik di Bali"><a href="bali.idntimes.com/news/bali/amp/imamrosidin/penerapan-tidak-boleh-pakai-kantong-plastik-di-bali">2</a></sup></p>
-
-                <p>Untuk itulah IDN Community Bali ingin mengajak generasi millennials dan Gen-Z untuk berbagi bersama sekaligus mengkampanyekan tentang kesadaran akan bahaya plastik dan bagaimana caranya bisa menerapkan "diet plastik" serta berbagi ilmu mengenai cara pengelolaan sampah plastik.</p>
+                <p>IDN Community Bali ingin mengajak generasi millennials dan Gen-Z untuk berbagi bersama sekaligus mengkampanyekan tentang kesadaran akan bahaya plastik dan bagaimana caranya bisa menerapkan "diet plastik" serta berbagi ilmu mengenai cara pengelolaan sampah plastik.</p>
 
                 <p>Acara ini GRATIS dan terbuka untuk umum namun tempat terbatas. Amankan tempatmu sekarang juga dengan daftar di <a href="http://bit.ly/IDNTimesComBali1">http://bit.ly/IDNTimesComBali1</a> <br>Kita tunggu ya kedatanganmu. Mari budayakan diet plastik dan sampai jumpa!</p>
 
-                <div class="accordion" id="accordionExample">
+                <h6 class="text-center">Waktu</h6>
+                <p class="bold">Sabtu, 23 Februari 2019 | 12:30 - 17:00 WITA</p>
+                <h6 class="text-center">Tempat</h6>
+                <p class="bold">KE{M}BALI Innovation Hub <br> Jalan Sunset Road No 28, Seminyak, Kuta, Kabupaten Badung, Bali.</p>
+                <h6 class="text-center">Detail Acara</h6>
+                <p class="bold">Sharing Session bersama dengan:<br>
+                  Muharram Atha Rasyadi (Juru Kampanye Urban Greenpeace Indonesia)<br>
+                  Fajar Lukman Hakim (GIS Specialist Cust. Development Spv Gringgo)<br>
+                  Screening film "Pulau Plastik" bersama dengan Andre Dananjaya (Senior Communication Officer Kopernik)<br>
+                  Dipandu oleh Luh De Dwi Jayanti dari Koor Plastik Detox Bali.
+                </p>
+
+                {{-- <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h2 class="mb-0">
@@ -62,29 +70,39 @@
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
                                 <ol>
-                                  <li>Sharing Session bersama dengan:
+                                  Sharing Session bersama dengan:
                                     <ul>
-                                      <li>Muharram Atha Rasyadi (Juru Kampanye Urban Greenpeace Indonesia)</li>
-                                      <li>Fajar Lukman Hakim (GIS Specialist Cust. Development Spv Gringgo)</li>
+                                      Muharram Atha Rasyadi (Juru Kampanye Urban Greenpeace Indonesia)
+                                      Fajar Lukman Hakim (GIS Specialist Cust. Development Spv Gringgo)
                                     </ul>
-                                  </li>
-                                  <li>Screening film "Pulau Plastik" bersama dengan Andre Dananjaya (Senior Communication Officer Kopernik)</li>
-                                  <li>Dipandu oleh Luh De Dwi Jayanti dari Koor Plastik Detox Bali.</li>
+
+                                  Screening film "Pulau Plastik" bersama dengan Andre Dananjaya (Senior Communication Officer Kopernik)
+                                  Dipandu oleh Luh De Dwi Jayanti dari Koor Plastik Detox Bali.
                                 </ol>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <br>
-                <hr>
+                <hr style="border-top: 2px solid rgba(0, 0, 0, 0.1);">
                 <br>
 
-                <h6 class="text-center">Pica Fest</h6>
+                {{-- <h6 class="text-center">Pica Fest</h6> --}}
                 <img src="{{ asset('storage/img/main/pica.png')}}" alt="">
                 <p>Bagi kalian yang berada di Denpasar & Sanur, kini saatnya untuk merapat dan nonton Pulau Plastik pada rangkaian acara PICA Fest, tanggal 23 Februari 2019, pukul 17.00 Wita, di Pantai Matahari Terbit, Sanur. Turut hadir Bli Gede Robi pada sesi diskusi setelah pemutaran. Catat tanggalnya dan sampai bertemu!</p>
 
-                <div class="accordion" id="accordionExample">
+
+                <h6 class="text-center">Waktu</h6>
+                <p class="bold">Sabtu, 23 Februari 2019 | 17:00 - 18:00 WITA</p>
+                <h6 class="text-center">Tempat</h6>
+                <p class="bold">Pantai Matahari Terbit, Sanur, Bali.</p>
+                <h6 class="text-center">Detail Acara</h6>
+                <p class="bold">Pemutaran film Pulau Plastik dan Talkshow bersama Gede Robi</p>
+
+
+
+                {{-- <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h2 class="mb-0">
@@ -122,7 +140,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
