@@ -1,10 +1,10 @@
 @extends('layouts.app-default')
 
-@section('title',  'Screenings')
+@section('title', 'Screenings')
 
-@section('tagline','Surga  Yang Terancam Sampah Plastik')
+@section('tagline','Surga Yang Terancam Sampah Plastik')
 
-@section('description','Serial  edutainment bersama host Gede Robi (aktivis lingkungan dan vokalis band Navicula) menelusuri isu penanganan sampah plastik di Bali. Lebih Lanjut.')
+@section('description','Serial edutainment bersama host Gede Robi (aktivis lingkungan dan vokalis band Navicula) menelusuri isu penanganan sampah plastik di Bali. Lebih Lanjut.')
 
 @section('content')
 <!-- Probelms -->
@@ -16,11 +16,113 @@
         <div class="col-md-12">
             <div class="py-4 container-inner-text">
                 <h3 class="text-center">Mendatang</h3>
-                <img src="{{ asset('storage/img/main/potato-head-event-header.jpg')}}" alt="">
-                <p>Momentum untuk beraksi terhadap masalah sampah plastik di Bali semakin meningkat. Sekarang adalah waktu yang tepat untuk meluncurkan Pulau Plastik, serial menarik terbaru kami yang menelusuri masalah sampah dengan melibatkan inisiatif lokal di seluruh pulau Bali. Kami mengundang Anda untuk bergabung di acara peluncuran Pulau Plastik di Potato Head Bali. Untuk reservasi, mohon mengisi <a href="https://goo.gl/dMG3Ri">form</a> ini.</p>
-                {{-- <div class="frame">
-                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9rmyVK6YRBNXpdXu_uuC2paorBiYhSTNU1MlUx8lw8QGSnA/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                </div> --}}
+                <br>
+                <h6 class="text-center">IDN Time - Milennials Jauhkan Plastik Dari Bumi</h6>
+                <img src="{{ asset('storage/img/main/idn.jpeg')}}" alt="">
+                <p>Bali sebagai destinasi wisata memiliki total timbunan sampah yang mencapai hampir 30 persen. Sampah tersebut merupakan sampah anorganik yang terdiri dari kertas, logam, kaca, plastik, dan karet. <sup title="Data Sampah Tertinggi di Provinsi Bali"><a  href="bali.idntimes.com/news/bali/amp/imamrosidin/data-sampah-tertinggi-di-provinsi-bali">1</a></sup></p>
+
+                <p>Denpasar yang merupakan pusat kota dari Bali setiap harinya memproduksi 850 ton sampah dan 30% persen, diantaranya adalah sampah anorganik. Dari 30% tersebut sampah plastik mendominasi sebesar 15%. <sup title="Penerapan Tidak Boleh Pakai Kantong Plastik di Bali"><a href="bali.idntimes.com/news/bali/amp/imamrosidin/penerapan-tidak-boleh-pakai-kantong-plastik-di-bali">2</a></sup></p>
+
+                <p>Untuk itulah IDN Community Bali ingin mengajak generasi millennials dan Gen-Z untuk berbagi bersama sekaligus mengkampanyekan tentang kesadaran akan bahaya plastik dan bagaimana caranya bisa menerapkan "diet plastik" serta berbagi ilmu mengenai cara pengelolaan sampah plastik.</p>
+
+                <p>Acara ini GRATIS dan terbuka untuk umum namun tempat terbatas. Amankan tempatmu sekarang juga dengan daftar di <a href="http://bit.ly/IDNTimesComBali1">http://bit.ly/IDNTimesComBali1</a> <br>Kita tunggu ya kedatanganmu. Mari budayakan diet plastik dan sampai jumpa!</p>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="far fa-clock"></i> Waktu</button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Sabtu, 23 Februari 2019 | 12:30 - 17:00 WITA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="far fa-map"></i> Lokasi</button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                KE{M}BALI Innovation Hub <br> Jalan Sunset Road No 28, Seminyak, Kuta, Kabupaten Badung, Bali.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="far fa-question-circle"></i> Detail Acara</button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ol>
+                                  <li>Sharing Session bersama dengan:
+                                    <ul>
+                                      <li>Muharram Atha Rasyadi (Juru Kampanye Urban Greenpeace Indonesia)</li>
+                                      <li>Fajar Lukman Hakim (GIS Specialist Cust. Development Spv Gringgo)</li>
+                                    </ul>
+                                  </li>
+                                  <li>Screening film "Pulau Plastik" bersama dengan Andre Dananjaya (Senior Communication Officer Kopernik)</li>
+                                  <li>Dipandu oleh Luh De Dwi Jayanti dari Koor Plastik Detox Bali.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+                <h6 class="text-center">Pica Fest</h6>
+                <img src="{{ asset('storage/img/main/pica.png')}}" alt="">
+                <p>Bagi kalian yang berada di Denpasar & Sanur, kini saatnya untuk merapat dan nonton Pulau Plastik pada rangkaian acara PICA Fest, tanggal 23 Februari 2019, pukul 17.00 Wita, di Pantai Matahari Terbit, Sanur. Turut hadir Bli Gede Robi pada sesi diskusi setelah pemutaran. Catat tanggalnya dan sampai bertemu!</p>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"><i class="far fa-clock"></i> Waktu</button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Sabtu, 23 Februari 2019 | 17:00 - 18:00 WITA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifth" aria-expanded="false" aria-controls="collapseTwo"><i class="far fa-map"></i> Lokasi</button>
+                            </h2>
+                        </div>
+                        <div id="collapseFifth" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Pantai Matahari Terbit, Sanur, Bali.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixth" aria-expanded="false" aria-controls="collapseThree"><i class="far fa-question-circle"></i> Detail Acara</button>
+                            </h2>
+                        </div>
+                        <div id="collapseSixth" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Pemutaran film Pulau Plastik dan Talkshow bersama Gede Robi
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
