@@ -42,7 +42,7 @@
                 <p>Bagi kalian yang berada di Denpasar & Sanur, kini saatnya untuk merapat dan nonton Pulau Plastik pada rangkaian acara PICA Fest, tanggal 23 Februari 2019, pukul 17.00 Wita, di Pantai Matahari Terbit, Sanur. Turut hadir Bli Gede Robi pada sesi diskusi setelah pemutaran. Catat tanggalnya dan sampai bertemu!</p>
 
                 <h6 class="text-center">Waktu</h6>
-                <p class="bold">Sabtu, 23 Februari 2019 | 17:00 - 18:00 WITA</p>
+                <p class="bold">Minggu, 24 Februari 2019 | 17:00 - 18:00 WITA</p>
                 <h6 class="text-center">Tempat</h6>
                 <p class="bold">Pantai Matahari Terbit, Sanur, Bali.</p>
                 <h6 class="text-center">Detail Acara</h6>
