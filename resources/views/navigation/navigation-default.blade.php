@@ -25,7 +25,7 @@
         <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="{{route('screenings.index')}}#upcoming">Upcoming</a>
-          <a class="dropdown-item" href="{{route('screenings.index')}}#host-a-screening">Host a Screening</a>
+          <a class="dropdown-item" href="{{route('host-a-screening.index')}}">Host a Screening</a>
         </div>
       </li>
       <li class="nav-item dropdown ml-1 mr-3">

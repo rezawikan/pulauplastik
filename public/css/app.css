@@ -12289,6 +12289,14 @@ nav .navbar-brand {
     font-size: .8em;
 }
 
+.btn-link-custom {
+  color: black;
+}
+
+.btn-link-custom:focus {
+  border-radius: 0 !important;
+}
+
 /* .btn-custom:focus, .btn-custom:active {
   border: 0px !important;
   outline: 0 !important;
