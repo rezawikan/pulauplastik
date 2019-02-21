@@ -78,7 +78,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  {{-- <div class="row">
     <div class="col-md-12">
       <div class="container-inner-form py-4">
         <p class="bold">Tata cara penyelenggaraan pemutaran dan diskusi secara mandiri</p>
@@ -156,7 +156,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 </div>
 @endsection
 
