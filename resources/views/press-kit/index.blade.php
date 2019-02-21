@@ -27,11 +27,11 @@
                     <img src="{{ asset('storage/img/photo/2.jpg') }}" />
                   </a>
                 </div>
-                <div class="card">
+                {{-- <div class="card">
                   <a href="{{ asset('storage/img/photo/3.jpg') }}" data-fancybox="images" data-caption="">
                     <img src="{{ asset('storage/img/photo/3.jpg') }}" />
                   </a>
-                </div>
+                </div> --}}
                 <div class="card">
                   <a href="{{ asset('storage/img/photo/4.jpg') }}" data-fancybox="images" data-caption="">
                     <img src="{{ asset('storage/img/photo/4.jpg') }}" />
