@@ -16,8 +16,8 @@
         <div class="col-md-12">
             <div class="py-4 container-inner-text">
                 <h3 class="text-center">Mendatang</h3>
-                <br>
-                <img src="{{ asset('storage/img/main/idn.jpeg')}}" alt="">
+                <p>--</p>
+                {{-- <img src="{{ asset('storage/img/main/idn.jpeg')}}" alt="">
                 <p>IDN Community Bali ingin mengajak generasi millennials dan Gen-Z untuk berbagi bersama sekaligus mengkampanyekan tentang kesadaran akan bahaya plastik dan bagaimana caranya bisa menerapkan "diet plastik" serta berbagi ilmu mengenai cara pengelolaan sampah plastik.</p>
 
                 <p>Acara ini GRATIS dan terbuka untuk umum namun tempat terbatas. Amankan tempatmu sekarang juga dengan daftar di <a href="http://bit.ly/IDNTimesComBali1">http://bit.ly/IDNTimesComBali1</a> <br>Kita tunggu ya kedatanganmu. Mari budayakan diet plastik dan sampai jumpa!</p>
@@ -46,7 +46,7 @@
                 <h6 class="text-center">Tempat</h6>
                 <p class="bold">Pantai Matahari Terbit, Sanur, Bali.</p>
                 <h6 class="text-center">Detail Acara</h6>
-                <p class="bold">Pemutaran film Pulau Plastik dan Talkshow bersama Gede Robi</p>
+                <p class="bold">Pemutaran film Pulau Plastik dan Talkshow bersama Gede Robi</p> --}}
 
             </div>
         </div>
