@@ -44,9 +44,8 @@
           Resources</a>
           <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{route('resources.index')}}#why-is-plastik-a-problem">Why is plastik a problem?</a>
-            <a class="dropdown-item" href="{{route('resources.index')}}#what-can-i-do">What can I do?</a>
-            <a class="dropdown-item" href="{{route('resources.index')}}#what-is-the-government-doing">What is the government doing?</a>
+            <a class="dropdown-item" href="{{route('resources.index')}}#kenapa-plastik-menjadi-masalah">Kenapa plastik sebuah masalah?</a>
+            <a class="dropdown-item" href="{{route('resources.index')}}#apa-yang-bisa-saya-lakukan">Apa yang bisa saya lakukan?</a>
           </div>
         </li>
         <li class="nav-item ml-1 mr-3">
