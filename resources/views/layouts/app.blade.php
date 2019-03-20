@@ -1,64 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>@yield('title') | @yield('tagline')</title>
-    <meta name="description" content="Serial edutainment bersama host Gede Robi (aktivis lingkungan dan vokalis band Navicula) menelusuri isu penanganan sampah plastik di Bali. Lebih Lanjut.">
-
-    <meta property="og:url" content="http://pulauplastik.org" />
-    <meta property="og:title" content="@yield('title') | @yield('tagline')" />
-    <meta property="og:description" content="@yield('description')" />
-    <meta property="og:image" content="http://pulauplastik.org/assets/pulau-plastik.png" />
-    <meta name="google-site-verification" content="Net9RhKRq82Y5Cy_hUS3Nc9I2Ug0v-RCXketdDjcTG8" />
-
-    <!-- Icon -->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon.png') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta name="og:title" content="Pulau Plastik"/>
-    <meta name="og:description" content="Serial edutainment bersama host Gede Robi (aktivis lingkungan dan vokalis band Navicula) menelusuri isu penanganan sampah plastik di Bali. Lebih Lanjut."/>
-    <meta name="author" content="Mochammad Rezza Wikandito, reza.wikan.dito@gmail.com">
-    <meta name="owner" content="Kopernik (NGO)">
-    <link rel='fluid-icon' type='image/png' href='https://intranet.kopernik.info/img/k-icon.png'>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- App styles -->
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
-    @stack('t-scripts')
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    <div id="app">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img class="small-logo" src="{{ asset('img/pulau_plastik_logo_black.png') }}" alt="Logo Pulau Plastik" style="width:50px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-  <main role="main" id="app">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav mr-auto">
+                      @auth
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                Resourcess <span class="caret"></span>
+                            </a>
 
-    @include('navigation.navigation-front')
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ route('dashboard.infographic.index') }}">
+                                    {{ __('Infografik') }}
+                                </a>
+                                <a class="dropdown-item" href="{{ route('dashboard.publication.index') }}">
+                                    {{ __('Publikasi') }}
+                                </a>
+                                <a class="dropdown-item" href="{{ route('dashboard.other.index') }}">
+                                    {{ __('Penelitian dan dokumen lainnya') }}
+                                </a>
+                            </div>
+                        </li>
+                      @endauth
+                    </ul>
 
-    @yield('content')
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
 
-  </main>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
 
-  @yield('footer')
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-
-  <!-- Mainly scripts -->
-  <script src="{{ mix('js/app.js') }}"></script>
-  <script src="{{ mix('js/vegas.js') }}"></script>
-  <script src="{{ mix('js/jquery.fancybox.js') }}"></script>
-
-  <script type="text/javascript" src="{{asset('js/home.js')}}"></script>
-  <script type="text/javascript" src="{{asset('js/custom.js')}}"></script>
-
-  <!-- Custom -->
-  @stack('b-scripts')
-
+        <main class="py-4">
+            @yield('content')
+        </main>
+    </div>
 </body>
 </html>

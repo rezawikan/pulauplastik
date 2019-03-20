@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\Resources;
 
+use App\Models\Infographic;
+use App\Models\Publication;
+use App\Models\Other;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -22,9 +25,11 @@ class ResourcesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function infographic()
     {
-        //
+        $data = Infographic::latest()->paginate(12);
+
+        return view('infographic.index', [ 'datas' => $data]);
     }
 
     /**
@@ -33,9 +38,11 @@ class ResourcesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function publications()
     {
-        //
+        $data = Publication::latest()->paginate(12);
+
+        return view('publication.index', [ 'datas' => $data]);
     }
 
     /**
@@ -44,42 +51,10 @@ class ResourcesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function others()
     {
-        //
-    }
+        $data = Other::latest()->paginate(12);
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+        return view('other.index', [ 'datas' => $data]);
     }
 }
