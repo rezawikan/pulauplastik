@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Publication extends Model
+class Media extends Model
 {
     /**
      * The attributes that are mass assignable.

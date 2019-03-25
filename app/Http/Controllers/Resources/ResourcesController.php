@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Resources;
 
 use App\Models\Infographic;
-use App\Models\Publication;
+use App\Models\Media;
 use App\Models\Other;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -38,11 +38,11 @@ class ResourcesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function publications()
+    public function media()
     {
-        $data = Publication::latest()->paginate(12);
+        $data = Media::latest()->paginate(12);
 
-        return view('publication.index', [ 'datas' => $data]);
+        return view('media.index', [ 'datas' => $data]);
     }
 
     /**

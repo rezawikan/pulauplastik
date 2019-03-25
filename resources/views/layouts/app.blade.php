@@ -41,8 +41,8 @@
                                 <a class="dropdown-item" href="{{ route('dashboard.infographic.index') }}">
                                     {{ __('Infografik') }}
                                 </a>
-                                <a class="dropdown-item" href="{{ route('dashboard.publication.index') }}">
-                                    {{ __('Publikasi') }}
+                                <a class="dropdown-item" href="{{ route('dashboard.media.index') }}">
+                                    {{ __('Media') }}
                                 </a>
                                 <a class="dropdown-item" href="{{ route('dashboard.other.index') }}">
                                     {{ __('Penelitian dan dokumen lainnya') }}

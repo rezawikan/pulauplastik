@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Create Publication')
+@section('title', 'Edit Media')
 
 @section('content')
   <div class="container">
@@ -8,17 +8,18 @@
       <div class="col-lg-12">
         <div class="ibox float-e-margins">
           <div class="ibox-title">
-            <h5>Create Publication</h5>
+            <h5>Edit Media</h5>
           </div>
           <div class="ibox-content">
             <div class="row">
               <div class="col-lg-12">
-                <form class="form-horizontal" enctype="multipart/form-data" action="{{ route('dashboard.publication.store') }}" method="POST">
-                  @include('dashboard.resources.publication._form')
+                <form class="form-horizontal" enctype="multipart/form-data" action="{{ route('dashboard.media.update',[ 'id' => $data->id ]) }}" method="POST">
+                  @method('PUT')
+                  @include('dashboard.resources.media._form')
                   <div class="form-group">
-                      <div class="col-lg-offset-2 col-lg-10">
-                          <button class="btn btn-md btn-primary" type="submit">Save</button>
-                      </div>
+                    <div class="col-lg-offset-2 col-lg-10">
+                        <button class="btn btn-md btn-primary" type="submit">Update</button>
+                    </div>
                   </div>
                 </form>
               </div>

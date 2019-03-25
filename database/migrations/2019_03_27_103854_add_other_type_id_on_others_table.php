@@ -27,8 +27,8 @@ class AddOtherTypeIdOnOthersTable extends Migration
      */
     public function down()
     {
-        Schema::table('others', function (Blueprint $table) {
-            $table->dropColumn('other_type_id');
-        });
+        // Schema::table('others', function (Blueprint $table) {
+        //     $table->dropColumn('other_type_id');
+        // });
     }
 }

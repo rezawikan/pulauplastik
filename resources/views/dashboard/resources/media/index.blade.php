@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
-          <a href="{{ route('dashboard.publication.create') }}" class="btn btn-info mb-3">Add Publication</a>
+          <a href="{{ route('dashboard.media.create') }}" class="btn btn-info mb-3">Add Media</a>
           @if (session('status'))
               <div class="alert alert-success" >
                   {{ session('status') }}
@@ -33,10 +33,10 @@
                           <td><img src="{{  asset('storage/'. $value->photo) }}" style="width:100px;"></td>
                           <td>{{ $value->created_at->diffForHumans() }}</td>
                           <td>
-                            <form class="" action="{{ route('dashboard.publication.destroy',['id' => $value->id]) }}" method="POST">
+                            <form class="" action="{{ route('dashboard.media.destroy',['id' => $value->id]) }}" method="POST">
                                @csrf
                                @method('DELETE')
-                               <a href="{{ route('dashboard.publication.edit',['id' => $value->id]) }}" class="btn btn-info btn-sm">Edit</a>
+                               <a href="{{ route('dashboard.media.edit',['id' => $value->id]) }}" class="btn btn-info btn-sm">Edit</a>
                                <button type="submit" name="button" class="btn btn-info btn-sm">Delete</button>
                             </form>
                           </td>

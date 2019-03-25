@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Publication;
+namespace App\Http\Controllers\Media;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\Publication;
+use App\Models\Media;
 use App\Traits\File;
 
-class PublicationController extends Controller
+class MediaController extends Controller
 {
     use File;
     /**
@@ -17,9 +17,9 @@ class PublicationController extends Controller
      */
     public function index()
     {
-        $data = Publication::latest()->paginate(12);
+        $data = Media::latest()->paginate(12);
 
-        return view('dashboard.resources.publication.index', [ 'datas' => $data]);
+        return view('dashboard.resources.media.index', [ 'datas' => $data]);
     }
 
     /**
@@ -29,7 +29,7 @@ class PublicationController extends Controller
      */
     public function create()
     {
-        return view('dashboard.resources.publication.create');
+        return view('dashboard.resources.media.create');
     }
 
     /**
@@ -40,14 +40,20 @@ class PublicationController extends Controller
      */
     public function store(Request $request)
     {
-        $this->file = $request->file('photo');
-        Publication::create([
+        $photo = null;
+        
+        if ($request->file('photo')) {
+            $this->file = $request->file('photo');
+            $photo = $this->saveFile('media');
+        }
+
+        Media::create([
         'title' => $request->title,
-        'photo' => $this->saveFile('publication'),
+        'photo' => $photo,
         'link' => $request->link,
       ]);
 
-        return redirect()->route('dashboard.publication.index')->with('status', 'Publication has added!');
+        return redirect()->route('dashboard.media.index')->with('status', 'Media has added!');
     }
 
     /**
@@ -69,8 +75,8 @@ class PublicationController extends Controller
      */
     public function edit($id)
     {
-        $data = Publication::find($id);
-        return view('dashboard.resources.publication.edit', ['data' => $data]);
+        $data = Media::find($id);
+        return view('dashboard.resources.media.edit', ['data' => $data]);
     }
 
     /**
@@ -82,7 +88,7 @@ class PublicationController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $infographic = Publication::find($id);
+        $infographic = Media::find($id);
         $data = [
           'title' => $request->title,
           'link' => $request->link
@@ -92,13 +98,13 @@ class PublicationController extends Controller
             $this->deleteFile($infographic->photo);
             $this->file = $request->file('photo');
             $data = array_merge($data, [
-              'photo' => $this->saveFile('publication')
+              'photo' => $this->saveFile('media')
             ]);
         }
 
         $infographic->update($data);
 
-        return redirect()->route('dashboard.publication.index')->with('status', 'Publication has updated!');
+        return redirect()->route('dashboard.media.index')->with('status', 'Media has updated!');
     }
 
     /**
@@ -109,12 +115,12 @@ class PublicationController extends Controller
      */
     public function destroy($id)
     {
-        $publication = Publication::find($id);
-        if ($publication->photo) {
-            $this->deleteFile($publication->photo);
+        $media = Media::find($id);
+        if ($media->photo) {
+            $this->deleteFile($media->photo);
         }
 
-        $publication->delete();
-        return redirect()->route('dashboard.publication.index')->with('status', 'Infographic '.$publication->title.' has deleted!');
+        $media->delete();
+        return redirect()->route('dashboard.media.index')->with('status', 'Infographic '.$media->title.' has deleted!');
     }
 }

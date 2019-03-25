@@ -1,9 +1,9 @@
 <?php
 
-use App\Models\Publication;
+use App\Models\Media;
 use Faker\Generator as Faker;
 
-$factory->define(Publication::class, function (Faker $faker) {
+$factory->define(Media::class, function (Faker $faker) {
     return [
       'title' => $faker->sentence(3),
       'photo' => 'https://via.placeholder.com/400',
