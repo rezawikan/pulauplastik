@@ -40,14 +40,14 @@
           </div>
         </li>
         <li class="nav-item dropdown ml-1 mr-3">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link" href="{{ route('resources.index') }}">
           Resources</a>
-          <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
+          {{-- <div class="dropdown-menu fade" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('infographic.index')}}">Infografik</a>
             <a class="dropdown-item" href="{{route('publications.index')}}">Publikasi</a>
             <a class="dropdown-item" href="{{route('others.index')}}">Penelitian dan dokumen lainnya</a>
-          </div>
+          </div> --}}
         </li>
         <li class="nav-item ml-1 mr-3">
           <a class="nav-link" href="{{ route('contact-us.index')}}">Contact Us</a>
