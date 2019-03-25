@@ -21,6 +21,7 @@
                         <th scope="col">#</th>
                         <th scope="col">Title</th>
                         <th scope="col">File</th>
+                        <th scope="col">Type</th>
                         <th scope="col">Last Update</th>
                         <th scope="col">Action</th>
                     </tr>
@@ -31,6 +32,7 @@
                           <th scope="row">{{ $value->id }}</th>
                           <td><a href="{{ $value->link ?: '#' }}">{{ $value->title }}</a></td>
                           <td>{{ $value->file }}</td>
+                          <td>{{ $value->type()->first()->type }}</td>
                           <td>{{ $value->created_at->diffForHumans() }}</td>
                           <td>
                             <form class="" action="{{ route('dashboard.other.destroy',['id' => $value->id]) }}" method="POST">

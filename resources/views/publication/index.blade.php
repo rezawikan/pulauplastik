@@ -1,6 +1,6 @@
 @extends('layouts.app-default')
 
-@section('title', 'Publication')
+@section('title', 'Media')
 
 @section('tagline','Surga Yang Terancam Sampah Plastik')
 
@@ -15,7 +15,7 @@
   <div class="row">
       <div class="col-md-12">
           <div class="py-4 container-inner-text">
-              <h3 class="text-center mb-3">Publication</h3>
+              <h3 class="text-center mb-3">Media</h3>
               <div class="row">
                   @foreach ($datas as $value)
                   <div class="col-md-4 d-flex align-items-stretch p-3">

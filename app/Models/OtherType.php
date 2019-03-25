@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-use App\Models\OtherType;
+use App\Models\Other;
 use Illuminate\Database\Eloquent\Model;
 
-class Other extends Model
+class OtherType extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -13,11 +13,11 @@ class Other extends Model
      * @var array
      */
     protected $fillable = [
-      'title', 'link', 'file', 'other_type_id'
-    ];
+    'type'
+  ];
 
-    public function type()
+    public function others()
     {
-        return $this->belongsTo(OtherType::class,'other_type_id');
+        return $this->hasMany(Other::class,'other_type_id','id');
     }
 }

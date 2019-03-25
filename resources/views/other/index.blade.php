@@ -16,18 +16,33 @@
         <div class="col-md-12">
             <div class="py-4">
                 <h3 class="text-center mb-3">Penelitian dan dokumen lainnya</h3>
+                <div class="row">
+                    <div class="col-md-3 offset-md-9">
+                        <form class="" action="index.html" method="post">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Kategori</label>
+                                <select class="form-control" onChange="window.location.replace(window.location.pathname +'?type='+this.options[this.selectedIndex].value)">
+                                    @foreach ($types as $value)
+                                    <option value="{{ $value->id }}">{{ $value->type }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
                 <ul class="list-group">
                     @foreach ($datas as $value)
-                      <li class="list-group-item">
-                          <a href="{{ $value->link ?: ($value->file ? asset('storage/'.$value->file ) : '#') }}" target="_blank">{{ $value->title }}</a> - {{$value->created_at->diffForHumans()}}</li>
+                    <li class="list-group-item">
+                        <a href="{{ $value->link ?: ($value->file ? asset('storage/'.$value->file ) : '#') }}" target="_blank">{{ $value->title }}</a> - {{ $value->type()->first()->type }} - {{$value->created_at->diffForHumans()}}</li>
                     @endforeach
                 </ul>
             </div>
         </div>
         <div class="col-md-12">
-          <div class="mt-3 mb-5">
-            {{ $datas->appends(request()->query())->links() }}
-          </div>
+            <div class="mt-3 mb-5">
+                {{ $datas->appends(request()->query())->links() }}
+            </div>
         </div>
     </div>
 </div>

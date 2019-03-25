@@ -42,7 +42,8 @@ class OtherController extends Controller
     {
         $data = [
           'title' => $request->title,
-          'link' => $request->link
+          'link' => $request->link,
+          'other_type_id' => $request->other_type_id
         ];
 
         if ($request->hasFile('file')) {
@@ -92,7 +93,8 @@ class OtherController extends Controller
         $other = Other::find($id);
         $data  = [
           'title' => $request->title,
-          'link' => $request->link
+          'link' => $request->link,
+          'other_type_id' => $request->other_type_id
         ];
 
         if ($request->file('file')) {
@@ -102,8 +104,6 @@ class OtherController extends Controller
             'file' => $this->saveFile('other')
           ]);
         }
-
-
 
         $other->update($data);
 

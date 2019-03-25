@@ -51,9 +51,16 @@ class ResourcesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function others()
+    public function others(Request $request)
     {
-        $data = Other::latest()->paginate(12);
+      $type = $request->type;
+
+      $data = Other::when($type, function ($query, $type) {
+          return $query->where('other_type_id', $type );
+      }, function ($query) {
+          return $query->latest();
+      })->paginate(15);
+
 
         return view('other.index', [ 'datas' => $data]);
     }
