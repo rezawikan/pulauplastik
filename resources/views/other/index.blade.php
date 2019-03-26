@@ -22,8 +22,9 @@
                           <div class="form-group">
                               <label for="exampleFormControlSelect1">Kategori</label>
                               <select class="form-control" onChange="window.location.replace(window.location.pathname +'?type='+this.options[this.selectedIndex].value)">
+                                  <option value="">Pilih</option>
                                   @foreach ($types as $value)
-                                  <option value="{{ $value->id }}">{{ $value->type }}</option>
+                                  <option value="{{ $value->id }}" {{ request()->type == $value->id ? 'selected' : '' }}>{{ $value->type }}</option>
                                   @endforeach
                               </select>
                           </div>
