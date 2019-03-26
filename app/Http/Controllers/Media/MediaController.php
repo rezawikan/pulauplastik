@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Media;
 
+use App\Http\Requests\MediaRequest;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Media;
@@ -38,10 +39,10 @@ class MediaController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(MediaRequest $request)
     {
         $photo = null;
-        
+
         if ($request->file('photo')) {
             $this->file = $request->file('photo');
             $photo = $this->saveFile('media');
@@ -86,7 +87,7 @@ class MediaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(MediaRequest $request, $id)
     {
         $infographic = Media::find($id);
         $data = [
@@ -121,6 +122,6 @@ class MediaController extends Controller
         }
 
         $media->delete();
-        return redirect()->route('dashboard.media.index')->with('status', 'Infographic '.$media->title.' has deleted!');
+        return redirect()->route('dashboard.media.index')->with('status', 'Media '.$media->title.' has deleted!');
     }
 }

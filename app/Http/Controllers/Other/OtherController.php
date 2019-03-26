@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Other;
 
+use App\Http\Requests\OtherRequest;
 use App\Models\Other;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -38,7 +39,7 @@ class OtherController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(OtherRequest $request)
     {
         $data = [
           'title' => $request->title,
@@ -88,7 +89,7 @@ class OtherController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(OtherRequest $request, $id)
     {
         $other = Other::find($id);
         $data  = [

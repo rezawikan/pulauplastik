@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Infographic;
 
+use App\Http\Requests\InfographicRequest;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Infographic;
@@ -39,12 +40,18 @@ class InfographicController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(InfographicRequest $request)
     {
-        $this->file = $request->file('photo');
+        $photo = null;
+
+        if ($request->file('photo')) {
+            $this->file = $request->file('photo');
+            $photo = $this->saveFile('infographic');
+        }
+
         Infographic::create([
           'title' => $request->title,
-          'photo' => $this->saveFile('infographic')
+          'photo' => $photo
         ]);
 
         return redirect()->route('dashboard.infographic.index')->with('status', 'Infographic has added!');
@@ -80,7 +87,7 @@ class InfographicController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(InfographicRequest $request, $id)
     {
         $infographic = Infographic::find($id);
         $data = ['title' => $request->title];
