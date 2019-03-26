@@ -33,7 +33,7 @@
                 <ul class="list-group">
                     @foreach ($datas as $value)
                     <li class="list-group-item">
-                        <a href="{{ $value->link ?: ($value->file ? asset('storage/'.$value->file ) : '#') }}" target="_blank">{{ $value->title }}</a> - {{ $value->type()->first()->type }} - {{$value->created_at->diffForHumans()}}</li>
+                        <a href="{{ $value->link ?: ($value->file ? asset('storage/'.$value->file ) : '#') }}" target="_blank">{{ $value->title }}</a> - {{  $value->type()->first() ? $value->type()->first()->type : 'Umum' }} - {{$value->created_at->diffForHumans()}}</li>
                     @endforeach
                 </ul>
             </div>
