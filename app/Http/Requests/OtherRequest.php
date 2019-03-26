@@ -25,7 +25,6 @@ class OtherRequest extends FormRequest
     {
         return [
           'title' => 'required',
-          'link' => 'required',
           'other_type_id' => 'required'
         ];
     }
