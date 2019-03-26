@@ -47,4 +47,11 @@ Route::prefix('dashboard')->middleware('auth')->group(function(){
   Route::put('/other/{id}', 'Other\OtherController@update')->name('dashboard.other.update');
   Route::get('/other/{id}/edit', 'Other\OtherController@edit')->name('dashboard.other.edit');
   Route::delete('/other/destroy/{id}', 'Other\OtherController@destroy')->name('dashboard.other.destroy');
+
+  Route::get('/othertype', 'OtherType\OtherTypeController@index')->name('dashboard.othertype.index');
+  Route::get('/othertype/create', 'OtherType\OtherTypeController@create')->name('dashboard.othertype.create');
+  Route::post('/othertype', 'OtherType\OtherTypeController@store')->name('dashboard.othertype.store');
+  Route::put('/othertype/{id}', 'OtherType\OtherTypeController@update')->name('dashboard.othertype.update');
+  Route::get('/othertype/{id}/edit', 'OtherType\OtherTypeController@edit')->name('dashboard.othertype.edit');
+  Route::delete('/othertype/destroy/{id}', 'OtherType\OtherTypeController@destroy')->name('dashboard.othertype.destroy');
 });

@@ -56,7 +56,7 @@ class OtherController extends Controller
 
         Other::create($data);
 
-        return redirect()->route('dashboard.other.index')->with('status', 'Infographic has added!');
+        return redirect()->route('dashboard.other.index')->with('status', 'Other has added!');
     }
 
     /**
