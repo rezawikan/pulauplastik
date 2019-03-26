@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddOtherTypeIdOnOthersTable extends Migration
+class AddOtherLangIdTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,9 +14,9 @@ class AddOtherTypeIdOnOthersTable extends Migration
     public function up()
     {
         Schema::table('others', function (Blueprint $table) {
-            $table->integer('other_type_id')->unsigned()->index()->nullable();
+            $table->integer('other_lang_id')->unsigned()->index()->nullable();
 
-            $table->foreign('other_type_id')->references('id')->on('other_types');
+            $table->foreign('other_lang_id')->references('id')->on('other_langs');
         });
     }
 
@@ -28,8 +28,8 @@ class AddOtherTypeIdOnOthersTable extends Migration
     public function down()
     {
         Schema::table('others', function (Blueprint $table) {
-            $table->dropForeign('others_other_type_id_foreign');
-            $table->dropIndex('others_other_type_id_index');
+            $table->dropForeign('others_other_lang_id_foreign');
+            $table->dropIndex('others_other_lang_id_index');
         });
     }
 }

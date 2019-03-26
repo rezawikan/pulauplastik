@@ -30,9 +30,9 @@
                     @foreach ($datas as $value)
                       <tr>
                           <th scope="row">{{ $value->id }}</th>
-                          <td><a href="{{ $value->link ?: '#' }}">{{ $value->title }}</a></td>
+                          <td><a href="{{ $value->link ? $value->link : asset('storage/'.$value->file )  }}" target="_blank">{{ $value->title }}</a></td>
                           <td>{{ $value->file }}</td>
-                          <td>{{ $value->type()->first() ? $value->type()->first()->type : 'NULL'  }}</td>
+                          <td>{{ $value->type()->first() ? $value->type()->first()->type : 'NULL'  }} - {{ $value->lang()->first() ? $value->lang()->first()->name : 'NULL'  }}</td>
                           <td>{{ $value->created_at->diffForHumans() }}</td>
                           <td>
                             <form class="" action="{{ route('dashboard.other.destroy',['id' => $value->id]) }}" method="POST">
@@ -45,6 +45,13 @@
                       </tr>
                     @endforeach
                 </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="5">
+                      {{ $datas->appends(request()->query())->links() }}
+                    </td>
+                  </tr>
+                </tfoot>
             </table>
         </div>
     </div>

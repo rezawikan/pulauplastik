@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\OtherType;
+namespace App\Http\Controllers\OtherLang;
 
+use App\Models\OtherLang;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\OtherType;
-use App\Http\Requests\OtherTypeRequest;
 
-class OtherTypeController extends Controller
+class OtherLangController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +15,9 @@ class OtherTypeController extends Controller
      */
     public function index(Request $request)
     {
-        $data = OtherType::latest()->paginate(12);
+        $data = OtherLang::latest()->paginate(12);
 
-        return view('dashboard.manage.othertype.index', [ 'datas' => $data]);
+        return view('dashboard.manage.otherlang.index', [ 'datas' => $data]);
     }
 
     /**
@@ -28,7 +27,7 @@ class OtherTypeController extends Controller
      */
     public function create()
     {
-        return view('dashboard.manage.othertype.create');
+        return view('dashboard.manage.otherlang.create');
     }
 
     /**
@@ -37,11 +36,11 @@ class OtherTypeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(OtherTypeRequest $request)
+    public function store(Request $request)
     {
-        OtherType::create($request->all());
+        OtherLang::create($request->all());
 
-        return redirect()->route('dashboard.othertype.index')->with('status', 'Other Type has added!');
+        return redirect()->route('dashboard.otherlang.index')->with('status', 'Other Lang has added!');
     }
 
     /**
@@ -52,6 +51,7 @@ class OtherTypeController extends Controller
      */
     public function show($id)
     {
+        //
     }
 
     /**
@@ -62,9 +62,9 @@ class OtherTypeController extends Controller
      */
     public function edit($id)
     {
-        $data = OtherType::find($id);
+        $data = OtherLang::find($id);
 
-        return view('dashboard.manage.othertype.edit', ['data' => $data]);
+        return view('dashboard.manage.otherlang.edit', ['data' => $data]);
     }
 
     /**
@@ -74,13 +74,13 @@ class OtherTypeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(OtherTypeRequest $request, $id)
+    public function update(Request $request, $id)
     {
-        $data = OtherType::find($id);
-
+        $data = OtherLang::find($id);
+        
         $data->update($request->all());
 
-        return redirect()->route('dashboard.othertype.index')->with('status', 'Other Type has updated!');
+        return redirect()->route('dashboard.otherlang.index')->with('status', 'Other Lang has updated!');
     }
 
     /**
@@ -91,9 +91,9 @@ class OtherTypeController extends Controller
      */
     public function destroy($id)
     {
-        $other = OtherType::find($id);
+        $other = OtherLang::find($id);
 
         $other->delete();
-        return redirect()->route('dashboard.othertype.index')->with('status', 'Other Type '.$other->title.' has deleted!');
+        return redirect()->route('dashboard.otherlang.index')->with('status', 'Other Lang '.$other->title.' has deleted!');
     }
 }

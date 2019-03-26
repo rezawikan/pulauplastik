@@ -29,7 +29,7 @@
                     @foreach ($datas as $value)
                       <tr>
                           <th scope="row">{{ $value->id }}</th>
-                          <td><a href="{{ $value->link }}">{{ $value->title }}</a></td>
+                          <td><a href="{{ $value->link }}" target="_blank">{{ $value->title }}</a></td>
                           <td><img src="{{  asset('storage/'. $value->photo) }}" style="width:100px;"></td>
                           <td>{{ $value->created_at->diffForHumans() }}</td>
                           <td>
@@ -43,6 +43,13 @@
                       </tr>
                     @endforeach
                 </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="5">
+                      {{ $datas->appends(request()->query())->links() }}
+                    </td>
+                  </tr>
+                </tfoot>
             </table>
         </div>
     </div>

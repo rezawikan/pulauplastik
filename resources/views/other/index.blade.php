@@ -1,6 +1,6 @@
 @extends('layouts.app-default')
 
-@section('title', 'Penelitian dan dokumen lainnya')
+@section('title', 'Penelitian dan dokumen')
 
 @section('tagline','Surga Yang Terancam Sampah Plastik')
 
@@ -15,26 +15,38 @@
     <div class="row">
         <div class="col-md-12">
             <div class="py-4">
-                <h3 class="text-center mb-3">Penelitian dan dokumen lainnya</h3>
-                @if (count($types) > 1)
-                  <div class="row">
-                      <div class="col-md-3 offset-md-9">
-                          <div class="form-group">
-                              <label for="exampleFormControlSelect1">Kategori</label>
-                              <select class="form-control" onChange="window.location.replace(window.location.pathname +'?type='+this.options[this.selectedIndex].value)">
-                                  <option value="">Pilih</option>
-                                  @foreach ($types as $value)
-                                  <option value="{{ $value->id }}" {{ request()->type == $value->id ? 'selected' : '' }}>{{ $value->type }}</option>
-                                  @endforeach
-                              </select>
-                          </div>
-                      </div>
-                  </div>
-                @endif
+                <h3 class="text-center mb-3">Penelitian dan dokumen</h3>
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            @if (count($types) > 0)
+                            <label for="inputEmail4">Kategori</label>
+                            <select class="form-control" onChange="categoryChanged(this.value)">
+                                <option value="all">All</option>
+                                @foreach ($types as $value)
+                                <option value="{{ $value->id }}" {{ request()->type == $value->id ? 'selected' : '' }}>{{ $value->type }}</option>
+                                @endforeach
+                            </select>
+                            @endif
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputPassword4">Bahasa</label>
+                            <select class="form-control" onChange="languageChanged(this.value)">
+                                <option value="all">All</option>
+                                @foreach ($langs as $lang)
+                                <option value="{{ $lang->id }}" {{ request()->lang == $lang->id ? 'selected' : '' }}>{{ $lang->name }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="py-4">
                 <ul class="list-group">
                     @foreach ($datas as $value)
                     <li class="list-group-item">
-                        <a href="{{ $value->link ?: ($value->file ? asset('storage/'.$value->file ) : '#') }}" target="_blank">{{ $value->title }}</a> - {{  $value->type()->first() ? $value->type()->first()->type : 'Umum' }} - {{$value->created_at->diffForHumans()}}</li>
+                        <a href="{{ $value->link ?: ($value->file ? asset('storage/'.$value->file ) : '#') }}" target="_blank">{{ $value->title }}</a> - {{ $value->type()->first() ? $value->type()->first()->type : 'Umum' }} </li>
                     @endforeach
                 </ul>
             </div>
@@ -51,3 +63,44 @@
 @section('footer')
 @include('layouts.footer')
 @endsection
+
+@push('b-scripts')
+<script type="text/javascript">
+    function categoryChanged(value) {
+        let url = new URL(window.location.href)
+
+        if (!isNaN(parseInt(value))) {
+            if (url.searchParams.has('type')) {
+                url.searchParams.set('type', parseInt(value))
+            } else {
+                url.searchParams.append('type', parseInt(value))
+            }
+
+            window.location.replace(url)
+        }
+
+        if (value == 'all') {
+            url.searchParams.delete('type')
+            window.location.replace(url)
+        }
+    }
+
+    function languageChanged(value) {
+        let url = new URL(window.location.href)
+
+        if (!isNaN(parseInt(value))) {
+            if (url.searchParams.has('lang')) {
+                url.searchParams.set('lang', parseInt(value))
+            } else {
+                url.searchParams.append('lang', parseInt(value))
+            }
+            window.location.replace(url)
+        }
+
+        if (value == 'all') {
+            url.searchParams.delete('lang')
+            window.location.replace(url)
+        }
+    }
+</script>
+@endpush

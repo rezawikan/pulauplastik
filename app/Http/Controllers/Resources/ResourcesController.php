@@ -53,13 +53,16 @@ class ResourcesController extends Controller
      */
     public function others(Request $request)
     {
-      $type = $request->type;
+        $type = $request->type;
+        $lang = $request->lang;
 
-      $data = Other::when($type, function ($query, $type) {
-          return $query->where('other_type_id', $type );
-      }, function ($query) {
-          return $query->latest();
-      })->paginate(15);
+        $data = Other::when($lang, function ($query, $lang) {
+            return $query->where('other_lang_id', $lang);
+        })->when($type, function ($query, $type) {
+            return $query->where('other_type_id', $type);
+        }, function ($query) {
+            return $query->latest();
+        })->paginate(15);
 
 
         return view('other.index', [ 'datas' => $data]);

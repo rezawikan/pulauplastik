@@ -21,6 +21,19 @@
     @endif
   </div>
 </div>
+<div class="form-group {{ $errors->has('other_lang_id') ? 'has-error' : '' }}">
+  <label class="col-lg-2 control-label">Language</label>
+  <div class="col-lg-10">
+    <select name="other_lang_id" class="form-control">
+      @foreach ($langs as $lang)
+        <option value="{{ $lang->id }}" {{ $lang->id == ($data->other_lang_id ?? old('other_lang_id')) ? 'selected' : '' }}>{{ $lang->name }}</option>
+      @endforeach
+    </select>
+    @if ($errors->has('other_lang_id'))
+    <span class="help-block m-b-none">{{ $errors->first('other_lang_id') }}</span>
+    @endif
+  </div>
+</div>
 <div class="form-group {{ $errors->has('link') ? 'has-error' : '' }}">
   <label class="col-lg-2 control-label">Link</label>
   <div class="col-lg-10">

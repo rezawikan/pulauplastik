@@ -17,7 +17,7 @@ class InfographicController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $data = Infographic::latest()->paginate(12);
 

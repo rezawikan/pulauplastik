@@ -16,7 +16,7 @@ class OtherController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $data = Other::latest()->paginate(12);
 
@@ -44,7 +44,8 @@ class OtherController extends Controller
         $data = [
           'title' => $request->title,
           'link' => $request->link,
-          'other_type_id' => $request->other_type_id
+          'other_type_id' => $request->other_type_id,
+          'other_lang_id' => $request->other_lang_id
         ];
 
         if ($request->hasFile('file')) {
@@ -95,7 +96,8 @@ class OtherController extends Controller
         $data  = [
           'title' => $request->title,
           'link' => $request->link,
-          'other_type_id' => $request->other_type_id
+          'other_type_id' => $request->other_type_id,
+          'other_lang_id' => $request->other_lang_id
         ];
 
         if ($request->file('file')) {

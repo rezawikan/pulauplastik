@@ -58,6 +58,9 @@
                                 <a class="dropdown-item" href="{{ route('dashboard.othertype.index') }}">
                                     {{ __('Other Type') }}
                                 </a>
+                                <a class="dropdown-item" href="{{ route('dashboard.otherlang.index') }}">
+                                    {{ __('Other Lang') }}
+                                </a>
                             </div>
                         </li>
                       @endauth
