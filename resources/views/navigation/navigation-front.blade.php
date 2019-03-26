@@ -18,7 +18,6 @@
             <a class="dropdown-item" href="{{route('the-series.index')}}#about-the-series" >About The Series</a>
             <a class="dropdown-item" href="{{route('the-series.index')}}#the-team">The Team</a>
             <a class="dropdown-item" href="{{route('the-series.index')}}#partners">Partners</a>
-            <a class="dropdown-item" href="{{route('the-series.index')}}#press">Press</a>
           </div>
         </li>
         <li class="nav-item dropdown ml-1 mr-3">

@@ -150,16 +150,6 @@
     </div>
   </div>
   </div>
-
-  <!-- Press -->
-  <div id="press" class="container default-text py-4">
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="text-center">Pers</h3>
-        <p>Segera</p>
-      </div>
-    </div>
-  </div>
 @endsection
 
 @section('footer')

@@ -16,21 +16,20 @@
         <div class="col-md-12">
             <div class="py-4">
                 <h3 class="text-center mb-3">Penelitian dan dokumen lainnya</h3>
-                <div class="row">
-                    <div class="col-md-3 offset-md-9">
-                        <form class="" action="index.html" method="post">
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect1">Kategori</label>
-                                <select class="form-control" onChange="window.location.replace(window.location.pathname +'?type='+this.options[this.selectedIndex].value)">
-                                    @foreach ($types as $value)
-                                    <option value="{{ $value->id }}">{{ $value->type }}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
+                @if (count($types) > 1)
+                  <div class="row">
+                      <div class="col-md-3 offset-md-9">
+                          <div class="form-group">
+                              <label for="exampleFormControlSelect1">Kategori</label>
+                              <select class="form-control" onChange="window.location.replace(window.location.pathname +'?type='+this.options[this.selectedIndex].value)">
+                                  @foreach ($types as $value)
+                                  <option value="{{ $value->id }}">{{ $value->type }}</option>
+                                  @endforeach
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+                @endif
                 <ul class="list-group">
                     @foreach ($datas as $value)
                     <li class="list-group-item">
