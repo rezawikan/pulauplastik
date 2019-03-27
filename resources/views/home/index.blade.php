@@ -88,7 +88,7 @@
         <div class="col-md-12 m-auto">
           <div class="container-second">
             <img src="{{asset('img/host-a-screening.png')}}" class="" alt="Host A Screening">
-            <a href="{{ route('host-a-screening.index')}}" class="btn btn-custom-second btn-middle">Host A Screening</a>
+            <a href="{{ route('host-a-screening.index')}}" class="btn btn-custom-second btn-middle">Selenggarakan Pemutaran</a>
           </div>
         </div>
     </div>
