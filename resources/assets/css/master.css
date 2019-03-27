@@ -540,11 +540,41 @@ nav .navbar-brand {
     box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25) !important;
 }
 
-/* .btn-custom:focus, .btn-custom:active {
-  border: 0px !important;
-  outline: 0 !important;
-  border-radius: 0 !important;
-} */
+.btn-custom-second {
+    padding: 10px 20px;
+    background-color: transparent;
+    /* background-image: linear-gradient(to bottom right, #87CCAD  , #4C8981); */
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    font-family: 'FuturaStdBold';
+    font-size: 1em;
+}
+
+.btn-custom-second:hover {
+  color: black !important;
+  background-color: white !important;
+}
+
+.btn-middle {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 20em;
+    height: 3em;
+    padding: 15px;
+}
+
+.container-second {
+    position: relative;
+    width: 100%;
+}
+
 .input-custom {
     border-radius: 0 !important;
 }
@@ -955,6 +985,7 @@ footer .footer-nav ul li a:hover {
     .partners .partner-col-20 {
         padding: 0 2em 0;
     }
+
     .pagination {
         display: block;
     }

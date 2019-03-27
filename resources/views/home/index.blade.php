@@ -38,10 +38,6 @@
     <div class="row no-gutters">
         <div class="col-md-12" style="line-height: 0;">
             <iframe src="https://www.youtube.com/embed/4xUAUWcPq74?vq=hd1080" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            {{-- <video controls poster="{{ asset('img/poster.png')}}" width="100%">
-              <source src="{{ asset('video/Pulau Plastik - official trailer.mp4') }}" type="video/mp4">
-              Your browser does not support the video tag.
-            </video> --}}
         </div>
     </div>
 </div>
@@ -84,28 +80,19 @@
     </div>
 </div>
 
-{{-- <div class="">
-    <div class="row no-gutters">
-        <div class="col-md-12">
-            <img src="{{asset('img/gede-robi-one.JPG')}}" target="_blank" alt="Robi Navicula">
-
-      </div>
-    </div>
-</div> --}}
-
 <!-- Horizontal Line -->
-{{-- <div class="">
-    <div class="container default-text p-4">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="container-inner-text">
-                    <hr>
-                </div>
-            </div>
+
+<!-- Gede Robi -->
+<div class="">
+    <div class="row no-gutters">
+        <div class="col-md-12 m-auto">
+          <div class="container-second">
+            <img src="{{asset('img/host-a-screening.png')}}" class="" alt="Host A Screening">
+            <a href="{{ route('host-a-screening.index')}}" class="btn btn-custom-second btn-middle">Host A Screening</a>
+          </div>
         </div>
     </div>
-</div> --}}
-
+</div>
 
 <!-- supported by -->
 <div class="">

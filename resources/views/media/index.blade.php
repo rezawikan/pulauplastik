@@ -27,7 +27,6 @@
                                 </a>
                               </div>
                               <p class="card-text"><a href="{{$value->link}}" target="_blank" title="{{$value->title}}">{{$value->title}}</a></p>
-                              <div class="card-footer text-muted" title="{{$value->created_at->diffForHumans()}}">{{$value->created_at->diffForHumans()}}</div>
                           </div>
                       </div>
                   </div>

@@ -35,7 +35,6 @@ $(document).ready(function() {
             $("nav").removeClass("navbar-transparent");
             $("#problems").addClass("scroll-margin");
             $('.small-logo').attr('src', function() {
-                console.log('test');
                 return this.src.replace('logo_whites', 'logo_black');
             });
         } else {

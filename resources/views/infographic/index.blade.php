@@ -27,7 +27,6 @@
                                   </a>
                                 </div>
                                 <p class="card-text" title="{{$value->title}}">{{$value->title}}</p>
-                                <div class="card-footer text-muted" title="{{$value->created_at->diffForHumans()}}">{{$value->created_at->diffForHumans()}}</div>
                             </div>
                         </div>
                     </div>
