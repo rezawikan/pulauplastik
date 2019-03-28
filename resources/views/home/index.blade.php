@@ -25,7 +25,7 @@
                 <div class="col-md-6 flex-fill">
                     <div class="text-center border-side-custom">
                         <p class="header px-4 text-uppercase" style="color:white;">Waktu untuk bertindak adalah sekarang.. <br>atau Bali akan menjadi Pulau Plastik!</p>
-                        <a href="https://goo.gl/Bisni1" target="_blank" class="btn btn-custom">Donasi</a>
+                        <a href="https://goo.gl/Bisni1" target="_blank" class="btn btn-custom-second">Donasi</a>
                     </div>
                 </div>
             </div>
