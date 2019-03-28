@@ -1,2 +1,10 @@
+# Rule 1
+User-agent: Googlebot
+Disallow: /login
+Disallow: /dashboard
+
 User-agent: *
-Disallow:
+Allow:
+
+
+Sitemap: http://pulauplastik.org/sitemap.xml

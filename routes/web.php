@@ -23,6 +23,7 @@ Route::get('sumber-data/media', 'Resources\ResourcesController@media')->name('me
 Route::get('sumber-data/penelitian-dan-dokumen', 'Resources\ResourcesController@others')->name('others.index');
 Route::get('kontak', 'ContactUs\ContactUsController@index')->name('contact-us.index');
 Route::post('kontak', 'ContactUs\ContactUsController@store')->name('contact-us.store');
+Route::get('sitemap', 'SitemapController@index');
 
 Auth::routes(['register' => false]);
 Route::prefix('dashboard')->middleware('auth')->group(function () {
