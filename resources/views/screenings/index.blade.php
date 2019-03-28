@@ -29,7 +29,7 @@
                             @endif
                           </h6>
                           <p class="card-text text-center mb-1">{{ $value->address }}</p>
-                          <p class="card-text text-center mb-1"><time datetime="{{ $value->date->format('Y-m-d')}}">{{ $value->date->format('d-m-Y')}}</time> | <time datetime="{{ $value->date->format('h:m')}}">{{ $value->date->format('g:i A')}}</time></p>
+                          <p class="card-text text-center mb-1"><time datetime="{{ $value->date->format('Y-m-d')}}">{{ $value->date->format('d-M-Y')}}</time> | <time datetime="{{ $value->date->format('h:m')}}">{{ $value->date->format('g:i A')}}</time></p>
                           <p class="card-text text-center">{{ $value->additional_information }}</p>
                         </div>
                       </div>
