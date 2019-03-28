@@ -15,7 +15,7 @@ class ScreeningsController extends Controller
      */
     public function index()
     {
-        $data = Upcoming::orderBy('date','desc')->paginate(12);
+        $data = Upcoming::orderBy('date','asc')->paginate(12);
         return view('screenings.index', ['datas' => $data]);
     }
 
