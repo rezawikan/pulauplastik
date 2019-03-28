@@ -1,6 +1,6 @@
 @extends('layouts.app-default')
 
-@section('title',  'Press Kit')
+@section('title',  'Pers')
 
 @section('tagline','Surga  Yang Terancam Sampah Plastik')
 

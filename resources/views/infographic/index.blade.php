@@ -1,6 +1,6 @@
 @extends('layouts.app-default')
 
-@section('title', 'Infographic')
+@section('title', 'Infografik')
 
 @section('tagline','Surga Yang Terancam Sampah Plastik')
 

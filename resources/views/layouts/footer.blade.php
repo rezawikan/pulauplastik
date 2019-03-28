@@ -24,11 +24,11 @@
         <h6>Menu</h6>
         <div class="footer-nav">
           <ul>
-            <li><a href="{{route('the-series.index')}}">The Series</a></li>
-            <li><a href="{{route('screenings.index')}}">Screenings</a></li>
-            <li><a href="{{route('press-kit.index')}}">Press Kit</a></li>
-            <li><a href="{{route('resources.index')}}">Resources</a></li>
-            <li><a href="{{route('contact-us.index')}}">Contact Us</a></li>
+            <li><a href="{{route('the-series.index')}}">Tentang Film</a></li>
+            <li><a href="{{route('screenings.index')}}">Pemutaran Film</a></li>
+            <li><a href="{{route('press-kit.index')}}">Pers</a></li>
+            <li><a href="{{route('resources.index')}}">Sumber Data</a></li>
+            <li><a href="{{route('contact-us.index')}}">Kontak</a></li>
           </ul>
         </div>
       </div>

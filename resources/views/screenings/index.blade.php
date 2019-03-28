@@ -1,6 +1,6 @@
 @extends('layouts.app-default')
 
-@section('title', 'Screenings')
+@section('title', 'Pemuataran Film')
 
 @section('tagline','Surga Yang Terancam Sampah Plastik')
 
