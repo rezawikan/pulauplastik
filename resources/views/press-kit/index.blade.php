@@ -14,7 +14,7 @@
 <div id="photo" class="container default-text py-4">
     <div class="row">
         <div class="col-md-12">
-            <h3 class="text-center">Foto</h3>
+            <h3 class="text-center mb-4">Foto</h3>
             {{-- <p>Segera</p> --}}
             <div class="card-columns">
                 <div class="card">
@@ -51,7 +51,7 @@
 <div id="press-release" class="container default-text py-4">
     <div class="row">
         <div class="col-md-12">
-            <h3 class="text-center">Press Release</h3>
+            <h3 class="text-center mb-4">Press Release</h3>
             <div class="container-inner-text mt-4">
               <div class="row">
                 <div class="col-md-6">

@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="py-4 container-inner-text">
-                <h3 class="text-center mb-3">Infografik</h3>
+                <h3 class="text-center mb-4">Infografik</h3>
                 <div class="row">
                     @foreach ($datas as $value)
                     <div class="col-md-4 d-flex align-items-stretch p-3">

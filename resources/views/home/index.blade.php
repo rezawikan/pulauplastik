@@ -127,7 +127,7 @@
       <div class="col-md-12">
         <p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting.</p>
         <form class="subscribe pb-4" action="index.html" method="POST">
-          <div class="input-group input-group-md mb-3">
+          <div class="input-group input-group-md mb-4">
             <input type="text" class="form-control input-custom" placeholder="Enter your email" aria-label="Small" aria-describedby="button-addon2">
             <div class="input-group-append">
               <button class="btn btn-custom bold" type="button" id="join-our-movement">JOIN OUR MOVEMENT</button>

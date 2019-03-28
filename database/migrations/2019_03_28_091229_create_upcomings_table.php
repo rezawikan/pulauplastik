@@ -14,7 +14,12 @@ class CreateUpcomingsTable extends Migration
     public function up()
     {
         Schema::create('upcomings', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->string('title');
+            $table->text('address');
+            $table->timestamp('date');
+            $table->text('additional_information')->nullable();
+            $table->text('link')->nullable();
             $table->timestamps();
         });
     }

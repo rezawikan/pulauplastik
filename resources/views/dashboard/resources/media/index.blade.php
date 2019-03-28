@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
-          <a href="{{ route('dashboard.media.create') }}" class="btn btn-info mb-3">Add Media</a>
+          <a href="{{ route('dashboard.media.create') }}" class="btn btn-info mb-4">Add Media</a>
           @if (session('status'))
               <div class="alert alert-success" >
                   {{ session('status') }}

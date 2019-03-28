@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
-          <a href="{{ route('dashboard.other.create') }}" class="btn btn-info mb-3">Add Other</a>
+          <a href="{{ route('dashboard.other.create') }}" class="btn btn-info mb-4">Add Other</a>
           @if (session('status'))
               <div class="alert alert-success" >
                   {{ session('status') }}

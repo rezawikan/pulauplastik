@@ -15,7 +15,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="container-inner-form">
-        <h3 class="text-center">Kontak</h3>
+        <h3 class="text-center mb-4">Kontak</h3>
         @if (session('status'))
             <div class="alert alert-success alert-dismissable">
                 <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>

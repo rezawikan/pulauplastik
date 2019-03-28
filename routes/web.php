@@ -23,17 +23,24 @@ Route::get('sumber-data/media', 'Resources\ResourcesController@media')->name('me
 Route::get('sumber-data/penelitian-dan-dokumen', 'Resources\ResourcesController@others')->name('others.index');
 Route::get('kontak', 'ContactUs\ContactUsController@index')->name('contact-us.index');
 Route::post('kontak', 'ContactUs\ContactUsController@store')->name('contact-us.store');
-Route::get('sitemap', 'SitemapController@index');
 
 Auth::routes(['register' => false]);
 Route::prefix('dashboard')->middleware('auth')->group(function () {
     Route::get('/', 'HomeController@index')->name('home');
+
     Route::get('/infographic', 'Infographic\InfographicController@index')->name('dashboard.infographic.index');
     Route::get('/infographic/create', 'Infographic\InfographicController@create')->name('dashboard.infographic.create');
     Route::post('/infographic', 'Infographic\InfographicController@store')->name('dashboard.infographic.store');
-    Route::put('/infographic/{infographic}', 'Infographic\InfographicController@update')->name('dashboard.infographic.update');
-    Route::get('/infographic/{infographic}/edit', 'Infographic\InfographicController@edit')->name('dashboard.infographic.edit');
+    Route::put('/infographic/{id}', 'Infographic\InfographicController@update')->name('dashboard.infographic.update');
+    Route::get('/infographic/{id}/edit', 'Infographic\InfographicController@edit')->name('dashboard.infographic.edit');
     Route::delete('/infographic/destroy/{id}', 'Infographic\InfographicController@destroy')->name('dashboard.infographic.destroy');
+
+    Route::get('/upcoming', 'Upcoming\UpcomingController@index')->name('dashboard.upcoming.index');
+    Route::get('/upcoming/create', 'Upcoming\UpcomingController@create')->name('dashboard.upcoming.create');
+    Route::post('/upcoming', 'Upcoming\UpcomingController@store')->name('dashboard.upcoming.store');
+    Route::put('/upcoming/{id}', 'Upcoming\UpcomingController@update')->name('dashboard.upcoming.update');
+    Route::get('/upcoming/{id}/edit', 'Upcoming\UpcomingController@edit')->name('dashboard.upcoming.edit');
+    Route::delete('/infographic/destroy/{id}', 'Upcoming\UpcomingController@destroy')->name('dashboard.upcoming.destroy');
 
     Route::get('/media', 'Media\MediaController@index')->name('dashboard.media.index');
     Route::get('/media/create', 'Media\MediaController@create')->name('dashboard.media.create');

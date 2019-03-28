@@ -15,8 +15,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="py-4">
-                <h3 class="text-center mb-3">Penelitian dan dokumen</h3>
-
+                <h3 class="text-center mb-4">Penelitian dan dokumen</h3>
                 <form>
                     <div class="form-row">
                         <div class="form-group col-md-3">
