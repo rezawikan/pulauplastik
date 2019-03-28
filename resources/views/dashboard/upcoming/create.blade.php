@@ -44,7 +44,7 @@
             icons: {
                 time: 'fas fa-clock'
             },
-            format: 'Y-MM-DD hh:mm:ss',
+            format: 'Y-MM-DD HH:mm:ss',
             defaultDate: new Date()
         });
     });
