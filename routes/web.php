@@ -40,7 +40,7 @@ Route::prefix('dashboard')->middleware('auth')->group(function () {
     Route::post('/upcoming', 'Upcoming\UpcomingController@store')->name('dashboard.upcoming.store');
     Route::put('/upcoming/{id}', 'Upcoming\UpcomingController@update')->name('dashboard.upcoming.update');
     Route::get('/upcoming/{id}/edit', 'Upcoming\UpcomingController@edit')->name('dashboard.upcoming.edit');
-    Route::delete('/infographic/destroy/{id}', 'Upcoming\UpcomingController@destroy')->name('dashboard.upcoming.destroy');
+    Route::delete('/upcoming/destroy/{id}', 'Upcoming\UpcomingController@destroy')->name('dashboard.upcoming.destroy');
 
     Route::get('/media', 'Media\MediaController@index')->name('dashboard.media.index');
     Route::get('/media/create', 'Media\MediaController@create')->name('dashboard.media.create');
