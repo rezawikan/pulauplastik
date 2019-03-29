@@ -5,7 +5,7 @@
 @endpush
 
 
-@section('title',  'Selenggaarakan Pemutaran')
+@section('title',  'Selenggarakan Pemutaran')
 
 @section('tagline','Surga  Yang Terancam Sampah Plastik')
 
@@ -20,7 +20,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="container-inner-form">
-        <h3 class="text-center mb-4">Selenggaarakan Pemutaran</h3>
+        <h3 class="text-center mb-4">Selenggarakan Pemutaran</h3>
         @if (session('status'))
             <div class="alert alert-success alert-dismissable">
                 <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
@@ -78,85 +78,6 @@
       </div>
     </div>
   </div>
-  {{-- <div class="row">
-    <div class="col-md-12">
-      <div class="container-inner-form py-4">
-        <p class="bold">Tata cara penyelenggaraan pemutaran dan diskusi secara mandiri</p>
-        <div class="accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button class="btn btn-link-custom" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Rekomendasi fasilitas pemutan
-                </button>
-              </h2>
-            </div>
-
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                <ol type="a">
-                  <li>Layar dan proyektor</li>
-                  <li>Perangkat suara</li>
-                  <li>Alat pemutar</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button class="btn btn-link-custom collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Materi & fasilitasi diskusi
-                </button>
-              </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                <ol type="a">
-                  <li>Pengantar</li>
-                  <li>Acuan data</li>
-                  <li>Solusi dan tindak lanjut</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button class="btn btn-link-custom collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Donasi
-                </button>
-              </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                <ol type="a">
-                  <li>Komunitas</li>
-                  <li>Lembaga/instusi pendidikan</li>
-                  <li>Perusahaan swasta</li>
-                  <li>Lembaga pemerintah</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingFour">
-              <h2 class="mb-0">
-                <button class="btn btn-link-custom collapsed text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Catatan singkat & dokumentasi dari kegiatan pemutaran dan diskusi
-                </button>
-              </h2>
-            </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                <i>Tuliskan deskripsi singkat mengenai peserta yang hadir serta bahasan dalam diskusi</i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> --}}
 </div>
 @endsection
 
