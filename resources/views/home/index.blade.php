@@ -48,8 +48,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="container-inner-text" style="color:white;">
-                    <p>Pulau Plastik adalah serial yang dipandu oleh musisi dan aktivis Gede Robi yang menyoroti pencemaran sampah plastik di Bali, serta mengupas fakta dibalik luapan sampah plastik yang berakhir di tempat pembuangan sampah, di
-                        laut, dan di makanan kita.</p>
+                    <p>Pulau Plastik adalah dokumenter non-fiksi yang dipandu oleh musisi dan aktivis Gede Robi yang menyoroti pencemaran sampah plastik di Bali, serta mengupas fakta dibalik luapan sampah plastik yang berakhir di tempat pembuangan sampah, di laut, dan di makanan kita.</p>
                 </div>
             </div>
         </div>

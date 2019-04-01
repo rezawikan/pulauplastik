@@ -11831,6 +11831,7 @@ img {
     font-size: 2em;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -12310,8 +12311,8 @@ nav .navbar-brand {
 }
 
 .btn-custom-second:hover {
-  color: black !important;
-  background-color: white !important;
+    color: black !important;
+    background-color: white !important;
 }
 
 .btn-middle {
