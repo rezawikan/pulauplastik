@@ -17,7 +17,7 @@ Route::get('pemutaran-film', 'Screenings\ScreeningsController@index')->name('scr
 Route::get('selenggarakan-pemutaran', 'Screenings\HostAScreeningController@index')->name('host-a-screening.index');
 Route::post('selenggarakan-pemutaran', 'Screenings\HostAScreeningController@store')->name('host-a-screening.store');
 Route::get('pers', 'PressKit\PressKitController@index')->name('press-kit.index');
-Route::get('sumber-data', 'Resources\ResourcesController@index')->name('resources.index');
+Route::get('faq', 'Resources\ResourcesController@index')->name('faq.index');
 Route::get('sumber-data/infografik', 'Resources\ResourcesController@infographic')->name('infographic.index');
 Route::get('sumber-data/media', 'Resources\ResourcesController@media')->name('media.index');
 Route::get('sumber-data/penelitian-dan-dokumen', 'Resources\ResourcesController@others')->name('others.index');

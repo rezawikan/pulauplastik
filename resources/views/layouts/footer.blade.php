@@ -27,7 +27,7 @@
             <li><a href="{{route('the-series.index')}}">Tentang Film</a></li>
             <li><a href="{{route('screenings.index')}}">Pemutaran Film</a></li>
             <li><a href="{{route('press-kit.index')}}">Pers</a></li>
-            <li><a href="{{route('resources.index')}}">Sumber Data</a></li>
+            <li><a href="{{route('host-a-screening.index')}}">Selenggarakan Pemutaran</a></li>
             <li><a href="{{route('contact-us.index')}}">Kontak</a></li>
           </ul>
         </div>

@@ -17,7 +17,7 @@ class ResourcesController extends Controller
      */
     public function index()
     {
-        return view('resources.index');
+        return view('faq.index');
     }
 
     /**

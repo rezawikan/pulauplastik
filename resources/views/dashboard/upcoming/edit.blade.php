@@ -46,6 +46,9 @@
                 time: 'fas fa-clock'
             },
             format: 'Y-MM-DD HH:mm:ss',
+            useCurrent: {
+              default: false
+            }
         });
     });
 </script>
