@@ -32,7 +32,7 @@
             <p>Menjelang acara pemutaran diselenggarakan, pastikan semua peralatan untuk pemutaran film sudah lengkap dan siap untuk digunakan. Detail alat-alat pemutaran yang dianjurkan dapat dilihat disini (link). Jangan lupa menyediakan
                 galon/dispenser agar penonton dapat mengisi ulang botol minum mereka.</p>
             <p>Setelah pemutaran film berakhir, kamu bisa buka sesi diskusi seputar film dan topik sampah plastik. Dengan bantuan seorang moderator, kalian bisa turut mengundang figur publik, seperti: aktifis lingkungan, dosen, atau representatif
-                dari organisasi peduli sampah sebagai pembicara. Contoh pertanyaan-pertanyaan yang bisa jadi paduan bisa kamu dapatkan disini (<a href="{{route('faq.index')}}">link</a>).</p>
+                dari organisasi peduli sampah sebagai pembicara. Contoh pertanyaan-pertanyaan yang bisa jadi paduan bisa kamu dapatkan <a href="{{route('faq.index')}}">disini</a>.</p>
             <p>Selamat menonton dan mari cegah bumi menjadi Pulau Plastik!</p>
             <div class="text-center">
               <!-- Button trigger modal -->
