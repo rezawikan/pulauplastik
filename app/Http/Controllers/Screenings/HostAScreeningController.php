@@ -42,7 +42,7 @@ class HostAScreeningController extends Controller
 
         Notification::route('mail', 'pulauplastik@kopernik.info')->notify((new HostAScreeningNotification($request))->delay($when));
 
-        return redirect('host-a-screening')->with('status', 'Terimakasih telah menghubungi Kami. Selanjutnya, tim kami akan menghubungi Anda segera');
+        return redirect('selenggarakan-pemutaran')->with('status', 'Terimakasih telah menghubungi Kami. Selanjutnya, tim kami akan menghubungi Anda segera');
     }
 
     /**

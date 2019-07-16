@@ -16,12 +16,12 @@
       <div class="col-md-12">
         <h3 class="text-center mb-4">Tentang Serial</h3>
         <p>Dokumenter non-fiksi dengan pendekatan antropologis dan budaya yang dirancang untuk penonton lokal, bertujuan untuk mengubah perilaku publik terhadap masalah sampah plastik sekaligus menunjukan sistem pengelolaan sampah yang lebih baik.</p>
-        <p>PULAU PLASTIK merupakan dokumenter non-fiksi yang diproduksi oleh Kopernik dan Akarumput. Serial ini mengeksplorasi masalah pengelolaan sampah di Bali, serta tantangan yang sedang dihadapi oleh masyarakat Bali dan pemerintah. Serial ini juga turut menyoroti kebiasaan baik dan solusi yang berkelanjutan. Disutradarai oleh Dandhy Laksono, dengan pembawa acara Gede Robi dari Navicula, serial ini menggunakan pendekatan sosial-budaya dan menunjukan peran tradisi dan spiritual Bali dalam pengelolaan limbah, sekaligus peran seni dan musik sebagai medium kampanye untuk mendorong gerakan ramah lingkungan.</p>
+        <p>PULAU PLASTIK merupakan dokumenter non-fiksi yang diproduksi oleh Kopernik dan Akarumput. Serial ini mengeksplorasi masalah pengelolaan sampah di Bali, serta tantangan yang sedang dihadapi oleh masyarakat Bali dan pemerintah. Serial ini juga turut menyoroti kebiasaan baik dan solusi yang berkelanjutan. Dengan pembawa acara Gede Robi dari Navicula, serial ini menggunakan pendekatan sosial-budaya dan menunjukan peran tradisi dan spiritual Bali dalam pengelolaan limbah, sekaligus peran seni dan musik sebagai medium kampanye untuk mendorong gerakan ramah lingkungan.</p>
       </div>
     </div>
   </div>
   <!-- Descriotion Gede Robi -->
-  <div id="the-team" class="container-fluid default-text py-4">
+  {{-- <div id="the-team" class="container-fluid default-text py-4">
     <div class="row">
       <div class="col-md-12">
           <h3 class="text-center mb-4">Tim</h3>
@@ -121,7 +121,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 
   <!-- Partner -->
   <div id="partners" class="container-fluid default-text py-4 bg-grey">

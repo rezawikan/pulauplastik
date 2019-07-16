@@ -20,6 +20,12 @@
     <div class="row">
         <div class="col-md-12">
             <h3 class="text-center mb-4">Selenggarakan Pemutaran</h3>
+            @if (session('status'))
+            <div class="alert alert-success alert-dismissable">
+                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                {{ session('status') }}.
+            </div>
+            @endif
             <img src="{{ asset('img/infografik-screening.jpg')}}" alt="Panduan Pemutaran">
             <p>Bagi kalian yang ingin melakukan pemutaran secara mandiri, berikut panduan/informasi yang kalian bisa siapkan agar acara bisa berlangsung dengan optimal:</p>
             <p>Menentukan target penonton akan memudahkanmu dalam menyesuaikan topik diskusi yang akan dibahas setelah penayangan Pulau Plastik. Kalian bisa menjangkau komunitas seperti pemuda/i desa, pelajar, perusahaan swasta, atau lainnya. Jangan
@@ -35,6 +41,7 @@
                 dari organisasi peduli sampah sebagai pembicara. Contoh pertanyaan-pertanyaan yang bisa jadi paduan bisa kamu dapatkan <a href="{{route('faq.index')}}">disini</a>.</p>
             <p>Selamat menonton dan mari cegah bumi menjadi Pulau Plastik!</p>
             <div class="text-center">
+
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-custom text-center" data-toggle="modal" data-target="#exampleModal">
                   Form Selenggarakan Pemutaran
@@ -53,12 +60,6 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            @if (session('status'))
-                            <div class="alert alert-success alert-dismissable">
-                                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-                                {{ session('status') }}.
-                            </div>
-                            @endif
                             <form class="bg-soft-two" method="POST" action="{{ route('host-a-screening.store')}}">
                                 @csrf
                                 <div class="form-row">

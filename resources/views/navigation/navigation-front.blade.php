@@ -15,7 +15,7 @@
           <div class="dropdown-menu fade home" aria-labelledby="navbarDropdown">
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{route('the-series.index')}}#about-the-series" >TENTANG SERIAL</a>
-            <a class="dropdown-item" href="{{route('the-series.index')}}#the-team">TIM</a>
+            {{-- <a class="dropdown-item" href="{{route('the-series.index')}}#the-team">TIM</a> --}}
             <a class="dropdown-item" href="{{route('the-series.index')}}#partners">REKAN</a>
           </div>
         </li>
